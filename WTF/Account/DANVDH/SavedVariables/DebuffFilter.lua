@@ -1,6 +1,6 @@
 
 DebuffFilter_Config = {
-	["Marelle - Starfall"] = {
+	["Fayz - Starfall"] = {
 		["debuffs"] = "yes",
 		["all_fbuffs"] = "no",
 		["scale"] = 2,
