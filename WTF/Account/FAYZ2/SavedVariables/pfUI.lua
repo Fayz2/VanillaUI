@@ -438,28 +438,20 @@ pfUI_profiles = {
 pfUI_addon_profiles = {
 	["Current"] = {
 		[1] = "!toggle",
-		[2] = "Atlas",
-		[3] = "AtlasLoot",
-		[4] = "AtlasQuest",
-		[5] = "Aux-Addon",
-		[6] = "BigWigs",
-		[7] = "BigWigs_HorsemenStrategy",
-		[8] = "Decursive",
-		[9] = "ExpandAssist",
-		[10] = "EQL3",
-		[11] = "Ignition",
-		[12] = "KLHThreatMeter",
-		[13] = "Mail",
-		[14] = "MikScrollingBattleText",
-		[15] = "MobHealth",
-		[16] = "RABuffs",
-		[17] = "RingMenu",
-		[18] = "SW_FixLogStrings",
-		[19] = "SW_Stats",
-		[20] = "TargetAssist",
-		[21] = "VCB",
-		[22] = "pfUI",
-		[23] = "!Questie",
+		[2] = "AtlasLoot",
+		[3] = "Aux-Addon",
+		[4] = "DebuffFilter",
+		[5] = "Decursive",
+		[6] = "ExpandAssist",
+		[7] = "EQL3",
+		[8] = "Ignition",
+		[9] = "KLHThreatMeter",
+		[10] = "Mail",
+		[11] = "MikScrollingBattleText",
+		[12] = "SW_FixLogStrings",
+		[13] = "SW_Stats",
+		[14] = "VCB",
+		[15] = "pfUI",
 	},
 }
 pfUI_cache = {
@@ -485,25 +477,28 @@ pfUI_cache = {
 			[2] = 84,
 			[3] = 1,
 		},
-		["Blackrock Outrunner:21"] = {
-			[1] = 267,
-			[2] = 95,
-			[3] = 1,
+		["Blackrock Grunt:20"] = {
+			[1] = 486,
+			[2] = 90,
+			[3] = 2,
 		},
 		["Redridge Mystic:19"] = {
 			[1] = 389,
 			[2] = 18,
 			[3] = 1,
 		},
-		["Blackrock Grunt:20"] = {
-			[1] = 486,
-			[2] = 90,
-			[3] = 2,
+		["Blackrock Outrunner:21"] = {
+			[1] = 267,
+			[2] = 95,
+			[3] = 1,
 		},
 	},
 	["gold"] = {
 		["Kronos"] = {
 			["Marelle"] = 56408019,
+		},
+		["Starfall"] = {
+			["Fayz"] = 876,
 		},
 	},
 	["chathistory"] = {
@@ -558,10 +553,106 @@ pfUI_cache = {
 				},
 			},
 		},
+		["Starfall"] = {
+			["Fayz"] = {
+				[1] = {
+					[1] = "|cffb29393|r|cffb29393[1]|r|cffb29393 |r|cffb29393[|cffb2b2b2|Hplayer:Reiayanami|h|cffb2b2b2Reiayanami|h|r|cffb29393]|r|cffb29393|r|cffb29393: invite me",
+					[2] = "|cff338bb2|r|cff338bb2[4]|r|cff338bb2 |r|cff338bb2[|cffb2b2b2|Hplayer:Skinnylatte|h|cffb2b2b2Skinnylatte|h|r|cff338bb2]|r|cff338bb2|r|cff338bb2: need some chad wand makers",
+					[3] = "|cff338bb2Joined Channel: [4. World]",
+					[4] = "|cffb29393Joined Channel: [3. LocalDefense - Elwynn Forest]",
+					[5] = "|cffb29393Joined Channel: [1. General - Elwynn Forest]",
+					[6] = "|cffb2b233Patch 1.2: Mysteries of Maraudon is now live!",
+					[7] = "|cffb2b233Welcome to Starfall PVP!",
+					[8] = "|cff5972b2To show Decursive's frame, type /dcrshow",
+					[9] = "|cff5972b2Decursive is now initialized, remember to check the options",
+					[10] = "|cffb2b233Aux |cffccccff|Hurl:v2.3.4|h[v2.3.4]|h|r|cffb2b233 loaded.",
+					[11] = "|cffb2b2b2Extended QuestLog |cffccccff|Hurl:v3.6.1|h[v3.6.1]|h|r|cffb2b2b2 Loaded for Fayz of Starfall. Courtesy of Sir Basara the Dragonslayer",
+					[12] = "VCB 4.0 is now loaded! Use the command /vcb to configure VCB!",
+					[13] = "|cff338bb2|r|cff338bb2[4]|r|cff338bb2 |r|cff338bb2[|cffb2b2b2|Hplayer:Akmaral|h|cffb2b2b2Akmaral|h|r|cff338bb2]|r|cff338bb2|r|cff338bb2: vot moy Latinskiy Samiy Pravelnyi!!! Ne to chto vash))",
+					[14] = "|cff338bb2|r|cff338bb2[4]|r|cff338bb2 |r|cff338bb2[|cffb2b2b2|Hplayer:Billy|h|cffb2b2b2Billy|h|r|cff338bb2]|r|cff338bb2|r|cff338bb2: caitlin is fake",
+					[15] = "|cff338bb2|r|cff338bb2[4]|r|cff338bb2 |r|cff338bb2[|cffb2b2b2|Hplayer:Draingang|h|cffb2b2b2Draingang|h|r|cff338bb2]|r|cff338bb2|r|cff338bb2: making a lv 1 twink",
+					[16] = "|cff338bb2Joined Channel: [4. World]",
+					[17] = "|cffb29393Joined Channel: [3. LocalDefense - Elwynn Forest]",
+					[18] = "|cffb29393Joined Channel: [1. General - Elwynn Forest]",
+					[19] = "|cffb2b233Patch 1.2: Mysteries of Maraudon is now live!",
+					[20] = "|cffb2b233Welcome to Starfall PVP!",
+					[21] = "|cff338bb2|r|cff338bb2[4]|r|cff338bb2 |r|cff338bb2[|cffb2b2b2|Hplayer:Yohan|h|cffb2b2b2Yohan|h|r|cff338bb2]|r|cff338bb2|r|cff338bb2: welcome to fitness wow, here, we do 20 push ups every level up! LETS GET IT FAM",
+					[22] = "|cffb29393|r|cffb29393[1]|r|cffb29393 |r|cffb29393[|cffb2b2b2|Hplayer:Reflex|h|cffb2b2b2Reflex|h|r|cffb29393]|r|cffb29393|r|cffb29393: WTT |cff1eff00|Hitem:15477:0:1009:0|h[Charger's Pants of the Whale]|h|r|cffb29393 for some leather armor",
+					[23] = "|cffb29393|r|cffb29393[1]|r|cffb29393 |r|cffb29393[|cffb2b2b2|Hplayer:Weird|h|cffb2b2b2Weird|h|r|cffb29393]|r|cffb29393|r|cffb29393: any mage will trade |cff1eff00|Hitem:14094:0:754:0|h[Beaded Wraps of the Owl]|h|r|cffb29393 for food",
+					[24] = "|cff338bb2|r|cff338bb2[4]|r|cff338bb2 |r|cff338bb2[|cffb2b2b2|Hplayer:Akmaral|h|cffb2b2b2Akmaral|h|r|cff338bb2]|r|cff338bb2|r|cff338bb2: vas na 360 perevernut))) srazu budete govorit na ponyaytnom yazike)))",
+					[25] = "|cff338bb2|r|cff338bb2[4]|r|cff338bb2 |r|cff338bb2[|cffb2b2b2|Hplayer:Elirn|h|cffb2b2b2Elirn|h|r|cff338bb2]|r|cff338bb2|r|cff338bb2: si",
+					[26] = "|cff338bb2|r|cff338bb2[4]|r|cff338bb2 |r|cff338bb2[|cffb2b2b2|Hplayer:Avefria|h|cffb2b2b2Avefria|h|r|cff338bb2]|r|cff338bb2|r|cff338bb2: ya hay una hermandad hispano hablante ?",
+					[27] = "|cff338bb2[4. World] Player Fayz is already on the channel.",
+					[28] = "|cff5972b2To show Decursive's frame, type /dcrshow",
+					[29] = "|cff5972b2Decursive is now initialized, remember to check the options",
+				},
+				[2] = {
+				},
+				[3] = {
+				},
+				[4] = {
+				},
+				[5] = {
+				},
+				[6] = {
+				},
+				[7] = {
+				},
+			},
+		},
+		["Starfall (Coming 06 29)"] = {
+			["Weasel"] = {
+				[1] = {
+					[1] = "|cffb2b233Aux |cffccccff|Hurl:v2.3.4|h[v2.3.4]|h|r|cffb2b233 loaded.",
+					[2] = "|cffb2b2b2Extended QuestLog |cffccccff|Hurl:v3.6.1|h[v3.6.1]|h|r|cffb2b2b2 Loaded for Weasel of Starfall (Coming 06 29). Courtesy of Sir Basara the Dragonslayer",
+					[3] = "VCB 4.0 is now loaded! Use the command /vcb to configure VCB!",
+				},
+				[2] = {
+				},
+				[3] = {
+				},
+				[4] = {
+				},
+				[5] = {
+				},
+				[6] = {
+				},
+				[7] = {
+				},
+			},
+			["Fayzbank"] = {
+				[1] = {
+					[1] = "|cffb2b233Aux |cffccccff|Hurl:v2.3.4|h[v2.3.4]|h|r|cffb2b233 loaded.",
+					[2] = "|cffb2b2b2Extended QuestLog |cffccccff|Hurl:v3.6.1|h[v3.6.1]|h|r|cffb2b2b2 Loaded for Fayzbank of Starfall (Coming 06 29). Courtesy of Sir Basara the Dragonslayer",
+					[3] = "VCB 4.0 is now loaded! Use the command /vcb to configure VCB!",
+					[4] = "|cffb2b233Aux |cffccccff|Hurl:v2.3.4|h[v2.3.4]|h|r|cffb2b233 loaded.",
+					[5] = "|cffb2b2b2Extended QuestLog |cffccccff|Hurl:v3.6.1|h[v3.6.1]|h|r|cffb2b2b2 Loaded for Fayzbank of Starfall (Coming 06 29). Courtesy of Sir Basara the Dragonslayer",
+					[6] = "VCB 4.0 is now loaded! Use the command /vcb to configure VCB!",
+				},
+				[2] = {
+				},
+				[3] = {
+				},
+				[4] = {
+				},
+				[5] = {
+				},
+				[6] = {
+				},
+				[7] = {
+				},
+			},
+		},
 	},
 	["prediction"] = {
 		["Kronos"] = {
 			["Marelle"] = {
+				["heals"] = {
+				},
+			},
+		},
+		["Starfall"] = {
+			["Fayz"] = {
 				["heals"] = {
 				},
 			},
