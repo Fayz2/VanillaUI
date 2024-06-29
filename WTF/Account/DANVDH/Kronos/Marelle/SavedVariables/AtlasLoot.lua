@@ -11,18 +11,18 @@ AtlasLootCharDB = {
 	},
 	["PartialMatching"] = true,
 	["MinimapButtonRadius"] = 88,
-	["FirstTime"] = false,
+	["ItemSpam"] = true,
 	["LootlinkTT"] = false,
 	["HidePanel"] = false,
-	["WishList"] = {
-	},
+	["FirstTime"] = false,
 	["EquipCompare"] = false,
 	["AllLinks"] = false,
 	["QuickLooks"] = {
 	},
 	["AtlasLootVersion"] = "40605",
 	["MinimapButtonPosition"] = 308,
-	["ItemSpam"] = true,
+	["WishList"] = {
+	},
 	["MinimapButton"] = true,
 	["LastBoss"] = "SFKRethilgore",
 }

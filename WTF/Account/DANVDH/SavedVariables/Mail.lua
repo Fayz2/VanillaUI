@@ -1,6 +1,6 @@
 
 Mail_AutoCompleteNames = {
 	["Kronos|Alliance"] = {
-		["Marelle"] = 6572.597,
+		["Marelle"] = 7429.007000000001,
 	},
 }
