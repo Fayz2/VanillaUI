@@ -1,6 +1,6 @@
 
 DebuffFilter_Config = {
-	["Marelle - Kronos III"] = {
+	["Marelle - Starfall"] = {
 		["debuffs"] = "yes",
 		["all_fbuffs"] = "no",
 		["scale"] = 2,

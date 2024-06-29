@@ -1,11 +1,11 @@
 Frame: ChatFrame1
-FrameLevel: 9
+FrameLevel: 2
 X: 5
 Y: -1040
 W: 377
 H: 133
 Frame: ChatFrame2
-FrameLevel: 35
+FrameLevel: 2
 X: 5
 Y: -1040
 W: 377
@@ -17,7 +17,7 @@ Y: -1040
 W: 377
 H: 133
 Frame: ChatFrame4
-FrameLevel: 7
+FrameLevel: 2
 X: 5
 Y: -1040
 W: 377
@@ -42,10 +42,6 @@ Frame: GossipFrame
 FrameLevel: 20
 X: 0
 Y: -104
-Frame: BigWigsMessageAnchor
-FrameLevel: 1
-X: 980
-Y: -79
 Frame: DecursiveMainBar
 FrameLevel: 1
 X: 1430

@@ -35,11 +35,8 @@ QuestlogOptions = {
 		["CustomHeaderColor"] = 0,
 		["TrackerShowMinimizer"] = 0,
 		["LogOpacity"] = 1,
-		["HeaderList"] = {
-		},
-		["RemoveCompletedObjectives"] = 0,
-		["ItemTooltip"] = 0,
-		["MobTooltip"] = 0,
+		["ShowZonesInTracker"] = 1,
+		["AutoCompleteQuests"] = 0,
 		["Color"] = {
 			["TrackerBG"] = {
 				["a"] = 0,
@@ -52,10 +49,10 @@ QuestlogOptions = {
 				["g"] = 1,
 				["b"] = 1,
 			},
-			["Tooltip"] = {
+			["ObjectiveComplete"] = {
 				["r"] = 1,
-				["g"] = 0.8,
-				["b"] = 0,
+				["g"] = 1,
+				["b"] = 1,
 			},
 			["ObjectiveEmpty"] = {
 				["r"] = 0.8,
@@ -67,10 +64,10 @@ QuestlogOptions = {
 				["g"] = 0.61,
 				["b"] = 0,
 			},
-			["ObjectiveComplete"] = {
+			["Tooltip"] = {
 				["r"] = 1,
-				["g"] = 1,
-				["b"] = 1,
+				["g"] = 0.8,
+				["b"] = 0,
 			},
 			["HeaderComplete"] = {
 				["r"] = 1,
@@ -78,28 +75,31 @@ QuestlogOptions = {
 				["b"] = 0,
 			},
 		},
-		["AutoCompleteQuests"] = 0,
-		["ShowZonesInTracker"] = 1,
+		["MobTooltip"] = 0,
+		["ItemTooltip"] = 0,
+		["RemoveCompletedObjectives"] = 0,
+		["HeaderList"] = {
+		},
 	},
 }
 QuestLevel_Quest2Level = {
-	["The Treasure of the Shen'dralar"] = "@x¤<60¤",
-	["Scarlet Subterfuge"] = "@x¤<60¤",
-	["The Reason for the Season"] = "<60¤",
+	["Galen's Escape"] = "<38¤",
+	["Concerted Efforts"] = "@x¤<60¤",
+	["Tabetha's Task"] = "@x¤<46¤",
 	["Nat's Measuring Tape"] = "@x¤<60¤",
 	["Tabard of the Argent Dawn"] = "@x¤<60¤",
 	["Signal for Pickup"] = "<52¤",
 	["Azure Templar"] = "@x¤<60¤",
-	["Spirit of the Boar"] = "<50¤",
+	["Blessed Wizard Oil"] = "@x¤<60¤",
 	["Unfinished Gordok Business"] = "@x¤<60¤",
 	["The Stone Circle"] = "<51¤",
 	["A Noble Brew"] = "<30¤",
-	["Galen's Escape"] = "<38¤",
-	["Tabetha's Task"] = "@x¤<46¤",
-	["Concerted Efforts"] = "@x¤<60¤",
-	["Blessed Wizard Oil"] = "@x¤<60¤",
+	["The Treasure of the Shen'dralar"] = "@x¤<60¤",
+	["The Perfect Poison"] = "@x¤<60¤",
+	["Scarlet Subterfuge"] = "@x¤<60¤",
+	["Spirit of the Boar"] = "<50¤",
 	["Treats for Greatfather Winter"] = "<60¤",
 	["Essence Mangoes"] = "<60¤",
-	["The Perfect Poison"] = "@x¤<60¤",
+	["The Reason for the Season"] = "<60¤",
 	["Feathermoon Stronghold"] = "@x¤<57¤",
 }
