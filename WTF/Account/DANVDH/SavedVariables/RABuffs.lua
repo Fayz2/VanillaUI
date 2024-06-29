@@ -1,9 +1,9 @@
 
 RABui_Settings = {
-	["lockwindow"] = true,
+	["newestVersionTitle"] = "0.10.3",
 	["trustctra"] = false,
-	["newestVersionPlayer"] = "Marelle",
-	["newestVersion"] = 0.1002,
+	["newestVersionPlayer"] = "Whackata",
+	["newestVersion"] = 0.1003,
 	["stoppvp"] = true,
 	["lastVersion"] = "0.10.2",
 	["uilocale"] = "",
@@ -13,8 +13,8 @@ RABui_Settings = {
 	["syntaxhelp"] = true,
 	["enableGreeting"] = true,
 	["showsampleoutputonclick"] = true,
-	["showraid"] = true,
-	["newestVersionTitle"] = "0.10.2",
+	["firstRun"] = false,
+	["lockwindow"] = true,
 	["Layout"] = {
 		["Kronos.Marelemule.current"] = {
 			[1] = {
@@ -175,8 +175,8 @@ RABui_Settings = {
 					[3] = 0.9607843137254902,
 				},
 				["priority"] = 10,
-				["extralabel"] = "",
 				["out"] = "RAID",
+				["extralabel"] = "",
 			},
 			[3] = {
 				["cmd"] = "bom 12345678",
@@ -187,8 +187,8 @@ RABui_Settings = {
 					[3] = 0.9607843137254902,
 				},
 				["priority"] = 10,
-				["extralabel"] = "",
 				["out"] = "RAID",
+				["extralabel"] = "",
 			},
 			[4] = {
 				["cmd"] = "bos 12345678",
@@ -199,8 +199,8 @@ RABui_Settings = {
 					[3] = 0.9607843137254902,
 				},
 				["priority"] = 10,
-				["extralabel"] = "",
 				["out"] = "RAID",
+				["extralabel"] = "",
 			},
 			[5] = {
 				["cmd"] = "bow 12345678",
@@ -211,8 +211,8 @@ RABui_Settings = {
 					[3] = 0.9607843137254902,
 				},
 				["priority"] = 10,
-				["extralabel"] = "",
 				["out"] = "RAID",
+				["extralabel"] = "",
 			},
 			[6] = {
 				["cmd"] = "motw 12345678",
@@ -223,8 +223,8 @@ RABui_Settings = {
 					[3] = 0.007843137254901961,
 				},
 				["priority"] = 10,
-				["extralabel"] = "",
 				["out"] = "RAID",
+				["extralabel"] = "",
 			},
 			[7] = {
 				["cmd"] = "pwf 12345678",
@@ -235,8 +235,8 @@ RABui_Settings = {
 					[3] = 1,
 				},
 				["priority"] = 10,
-				["extralabel"] = "",
 				["out"] = "RAID",
+				["extralabel"] = "",
 			},
 			[8] = {
 				["cmd"] = "ds 12345678",
@@ -247,8 +247,8 @@ RABui_Settings = {
 					[3] = 1,
 				},
 				["priority"] = 10,
-				["extralabel"] = "",
 				["out"] = "RAID",
+				["extralabel"] = "",
 			},
 			[9] = {
 				["cmd"] = "firepot 12345678",
@@ -259,8 +259,8 @@ RABui_Settings = {
 					[3] = 0,
 				},
 				["priority"] = 10,
-				["extralabel"] = "",
 				["out"] = "RAID",
+				["extralabel"] = "",
 			},
 			[10] = {
 				["cmd"] = "naturepot 12345678",
@@ -271,8 +271,8 @@ RABui_Settings = {
 					[3] = 0.2078431372549019,
 				},
 				["priority"] = 10,
-				["extralabel"] = "",
 				["out"] = "RAID",
+				["extralabel"] = "",
 			},
 			[11] = {
 				["cmd"] = "shadowpot 12345678",
@@ -283,8 +283,8 @@ RABui_Settings = {
 					[3] = 0.6627450980392157,
 				},
 				["priority"] = 10,
-				["extralabel"] = "",
 				["out"] = "RAID",
+				["extralabel"] = "",
 			},
 			[12] = {
 				["cmd"] = "ss 12345678",
@@ -295,8 +295,8 @@ RABui_Settings = {
 					[3] = 0.6627450980392157,
 				},
 				["priority"] = 10,
-				["extralabel"] = "",
 				["out"] = "RAID",
+				["extralabel"] = "",
 			},
 		},
 		["Kronos.Mareleherbs.current"] = {
@@ -344,11 +344,11 @@ RABui_Settings = {
 	["keepversions"] = false,
 	["alwayscastbigbuffs"] = false,
 	["outlocale"] = "",
-	["colorizechat"] = true,
 	["castbigbuffs"] = false,
+	["colorizechat"] = true,
 	["showsolo"] = false,
 	["enablefadingfx"] = false,
 	["partymode"] = true,
 	["dummymode"] = false,
-	["firstRun"] = false,
+	["showraid"] = true,
 }
