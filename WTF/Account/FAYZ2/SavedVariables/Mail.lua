@@ -1,7 +1,7 @@
 
 Mail_AutoCompleteNames = {
 	["Starfall|Alliance"] = {
-		["Fayz"] = 454.708,
+		["Fayz"] = 3440.671,
 	},
 	["Kronos|Alliance"] = {
 		["Marelle"] = 9334.862000000001,
