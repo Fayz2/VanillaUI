@@ -1,7 +1,7 @@
 
 Dcr_Saved = {
 	["Print_CustomFrame"] = false,
-	["Ingore_Stealthed"] = false,
+	["Random_Order"] = false,
 	["AfflictionTooltips"] = true,
 	["SkipList"] = {
 	},
@@ -18,9 +18,9 @@ Dcr_Saved = {
 	["HideButtons"] = false,
 	["ScanTime"] = 0.2,
 	["CureMagic"] = true,
+	["ReverseLiveDisplay"] = false,
 	["Hidden"] = true,
 	["CureDisease"] = true,
-	["ReverseLiveDisplay"] = false,
 	["Check_For_Abolish"] = true,
 	["PlaySound"] = false,
 	["DoNot_Blacklist_Prio_List"] = false,
@@ -29,7 +29,7 @@ Dcr_Saved = {
 	["Print_ChatFrame"] = false,
 	["PriorityList"] = {
 	},
-	["Random_Order"] = false,
+	["Ingore_Stealthed"] = false,
 	["CureOrderList"] = {
 		[1] = "Curse",
 		[2] = "Magic",
