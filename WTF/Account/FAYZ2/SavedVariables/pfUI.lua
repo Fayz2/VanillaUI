@@ -477,28 +477,28 @@ pfUI_cache = {
 			[2] = 84,
 			[3] = 1,
 		},
-		["Blackrock Grunt:20"] = {
-			[1] = 486,
-			[2] = 90,
-			[3] = 2,
+		["Blackrock Outrunner:21"] = {
+			[1] = 267,
+			[2] = 95,
+			[3] = 1,
 		},
 		["Redridge Mystic:19"] = {
 			[1] = 389,
 			[2] = 18,
 			[3] = 1,
 		},
-		["Blackrock Outrunner:21"] = {
-			[1] = 267,
-			[2] = 95,
-			[3] = 1,
+		["Blackrock Grunt:20"] = {
+			[1] = 486,
+			[2] = 90,
+			[3] = 2,
 		},
 	},
 	["gold"] = {
+		["Starfall"] = {
+			["Fayz"] = 2918,
+		},
 		["Kronos"] = {
 			["Marelle"] = 56408019,
-		},
-		["Starfall"] = {
-			["Fayz"] = 876,
 		},
 	},
 	["chathistory"] = {
@@ -556,35 +556,35 @@ pfUI_cache = {
 		["Starfall"] = {
 			["Fayz"] = {
 				[1] = {
-					[1] = "|cffb29393|r|cffb29393[1]|r|cffb29393 |r|cffb29393[|cffb2b2b2|Hplayer:Reiayanami|h|cffb2b2b2Reiayanami|h|r|cffb29393]|r|cffb29393|r|cffb29393: invite me",
-					[2] = "|cff338bb2|r|cff338bb2[4]|r|cff338bb2 |r|cff338bb2[|cffb2b2b2|Hplayer:Skinnylatte|h|cffb2b2b2Skinnylatte|h|r|cff338bb2]|r|cff338bb2|r|cff338bb2: need some chad wand makers",
-					[3] = "|cff338bb2Joined Channel: [4. World]",
-					[4] = "|cffb29393Joined Channel: [3. LocalDefense - Elwynn Forest]",
-					[5] = "|cffb29393Joined Channel: [1. General - Elwynn Forest]",
-					[6] = "|cffb2b233Patch 1.2: Mysteries of Maraudon is now live!",
-					[7] = "|cffb2b233Welcome to Starfall PVP!",
-					[8] = "|cff5972b2To show Decursive's frame, type /dcrshow",
-					[9] = "|cff5972b2Decursive is now initialized, remember to check the options",
-					[10] = "|cffb2b233Aux |cffccccff|Hurl:v2.3.4|h[v2.3.4]|h|r|cffb2b233 loaded.",
-					[11] = "|cffb2b2b2Extended QuestLog |cffccccff|Hurl:v3.6.1|h[v3.6.1]|h|r|cffb2b2b2 Loaded for Fayz of Starfall. Courtesy of Sir Basara the Dragonslayer",
-					[12] = "VCB 4.0 is now loaded! Use the command /vcb to configure VCB!",
-					[13] = "|cff338bb2|r|cff338bb2[4]|r|cff338bb2 |r|cff338bb2[|cffb2b2b2|Hplayer:Akmaral|h|cffb2b2b2Akmaral|h|r|cff338bb2]|r|cff338bb2|r|cff338bb2: vot moy Latinskiy Samiy Pravelnyi!!! Ne to chto vash))",
-					[14] = "|cff338bb2|r|cff338bb2[4]|r|cff338bb2 |r|cff338bb2[|cffb2b2b2|Hplayer:Billy|h|cffb2b2b2Billy|h|r|cff338bb2]|r|cff338bb2|r|cff338bb2: caitlin is fake",
-					[15] = "|cff338bb2|r|cff338bb2[4]|r|cff338bb2 |r|cff338bb2[|cffb2b2b2|Hplayer:Draingang|h|cffb2b2b2Draingang|h|r|cff338bb2]|r|cff338bb2|r|cff338bb2: making a lv 1 twink",
-					[16] = "|cff338bb2Joined Channel: [4. World]",
-					[17] = "|cffb29393Joined Channel: [3. LocalDefense - Elwynn Forest]",
-					[18] = "|cffb29393Joined Channel: [1. General - Elwynn Forest]",
-					[19] = "|cffb2b233Patch 1.2: Mysteries of Maraudon is now live!",
-					[20] = "|cffb2b233Welcome to Starfall PVP!",
-					[21] = "|cff338bb2|r|cff338bb2[4]|r|cff338bb2 |r|cff338bb2[|cffb2b2b2|Hplayer:Yohan|h|cffb2b2b2Yohan|h|r|cff338bb2]|r|cff338bb2|r|cff338bb2: welcome to fitness wow, here, we do 20 push ups every level up! LETS GET IT FAM",
-					[22] = "|cffb29393|r|cffb29393[1]|r|cffb29393 |r|cffb29393[|cffb2b2b2|Hplayer:Reflex|h|cffb2b2b2Reflex|h|r|cffb29393]|r|cffb29393|r|cffb29393: WTT |cff1eff00|Hitem:15477:0:1009:0|h[Charger's Pants of the Whale]|h|r|cffb29393 for some leather armor",
-					[23] = "|cffb29393|r|cffb29393[1]|r|cffb29393 |r|cffb29393[|cffb2b2b2|Hplayer:Weird|h|cffb2b2b2Weird|h|r|cffb29393]|r|cffb29393|r|cffb29393: any mage will trade |cff1eff00|Hitem:14094:0:754:0|h[Beaded Wraps of the Owl]|h|r|cffb29393 for food",
-					[24] = "|cff338bb2|r|cff338bb2[4]|r|cff338bb2 |r|cff338bb2[|cffb2b2b2|Hplayer:Akmaral|h|cffb2b2b2Akmaral|h|r|cff338bb2]|r|cff338bb2|r|cff338bb2: vas na 360 perevernut))) srazu budete govorit na ponyaytnom yazike)))",
-					[25] = "|cff338bb2|r|cff338bb2[4]|r|cff338bb2 |r|cff338bb2[|cffb2b2b2|Hplayer:Elirn|h|cffb2b2b2Elirn|h|r|cff338bb2]|r|cff338bb2|r|cff338bb2: si",
-					[26] = "|cff338bb2|r|cff338bb2[4]|r|cff338bb2 |r|cff338bb2[|cffb2b2b2|Hplayer:Avefria|h|cffb2b2b2Avefria|h|r|cff338bb2]|r|cff338bb2|r|cff338bb2: ya hay una hermandad hispano hablante ?",
-					[27] = "|cff338bb2[4. World] Player Fayz is already on the channel.",
-					[28] = "|cff5972b2To show Decursive's frame, type /dcrshow",
-					[29] = "|cff5972b2Decursive is now initialized, remember to check the options",
+					[1] = "|cffb2b2b2|r|cffb2b2b2[S]|r|cffb2b2b2 |r|cffb2b2b2[|cff68ccef|Hplayer:Fayz|h|cff68ccefFayz|h|r|cffb2b2b2]|r|cffb2b2b2|r|cffb2b2b2: test",
+					[2] = "|cff5972b2To show Decursive's frame, type /dcrshow",
+					[3] = "|cff5972b2Decursive is now initialized, remember to check the options",
+					[4] = "|cffb2b233Aux |cffccccff|Hurl:v2.3.4|h[v2.3.4]|h|r|cffb2b233 loaded.",
+					[5] = "|cffb2b2b2Extended QuestLog |cffccccff|Hurl:v3.6.1|h[v3.6.1]|h|r|cffb2b2b2 Loaded for Fayz of Starfall. Courtesy of Sir Basara the Dragonslayer",
+					[6] = "VCB 4.0 is now loaded! Use the command /vcb to configure VCB!",
+					[7] = "|cffb29393|r|cffb29393[1]|r|cffb29393 |r|cffb29393[|cffc69b6d|Hplayer:Warpoet|h|cffc69b6dWarpoet|h|r|cffb29393]|r|cffb29393|r|cffb29393: looks like we're still losing progress on rrestarts",
+					[8] = "|cffb29393|r|cffb29393[1]|r|cffb29393 |r|cffb29393[|cffc69b6d|Hplayer:Warpoet|h|cffc69b6dWarpoet|h|r|cffb29393]|r|cffb29393|r|cffb29393: no rollbacks but my first aid is back down to 1",
+					[9] = "|cff5972b2To show Decursive's frame, type /dcrshow",
+					[10] = "|cff5972b2Decursive is now initialized, remember to check the options",
+					[11] = "|cffb2b233Aux |cffccccff|Hurl:v2.3.4|h[v2.3.4]|h|r|cffb2b233 loaded.",
+					[12] = "|cffb2b2b2Extended QuestLog |cffccccff|Hurl:v3.6.1|h[v3.6.1]|h|r|cffb2b2b2 Loaded for Fayz of Starfall. Courtesy of Sir Basara the Dragonslayer",
+					[13] = "VCB 4.0 is now loaded! Use the command /vcb to configure VCB!",
+					[14] = "|cffb2b282William Pestle says: The invisibility liquor is ready for you, Awesome.",
+					[15] = "|cffb2b282William Pestle says: This shouldn't take long...",
+					[16] = "|cffb2b282William Pestle says: The invisibility liquor is ready for you, Supermassive.",
+					[17] = "|cffb29393|r|cffb29393[1]|r|cffb29393 |r|cffb29393[|cffb2b2b2|Hplayer:Provoked|h|cffb2b2b2Provoked|h|r|cffb29393]|r|cffb29393|r|cffb29393: <Booty Bay Book Club> is now looking for more members! New Adventures New Friends! pst for a invite :)",
+					[18] = "|cffb2b282William Pestle says: This shouldn't take long...",
+					[19] = "|cffb29393Joined Channel: [3. LocalDefense - Elwynn Forest]",
+					[20] = "|cffb29393Joined Channel: [1. General - Elwynn Forest]",
+					[21] = "|cffb2b233Patch 1.2: Mysteries of Maraudon is now live!",
+					[22] = "|cffb2b233Welcome to Starfall PVP!",
+					[23] = "|cff5972b2To show Decursive's frame, type /dcrshow",
+					[24] = "|cff5972b2Decursive is now initialized, remember to check the options",
+					[25] = "|cffb2b233Aux |cffccccff|Hurl:v2.3.4|h[v2.3.4]|h|r|cffb2b233 loaded.",
+					[26] = "|cffb2b2b2Extended QuestLog |cffccccff|Hurl:v3.6.1|h[v3.6.1]|h|r|cffb2b2b2 Loaded for Fayz of Starfall. Courtesy of Sir Basara the Dragonslayer",
+					[27] = "VCB 4.0 is now loaded! Use the command /vcb to configure VCB!",
+					[28] = "|cffb29393|r|cffb29393[1]|r|cffb29393 |r|cffb29393[|cffb2b2b2|Hplayer:Reiayanami|h|cffb2b2b2Reiayanami|h|r|cffb29393]|r|cffb29393|r|cffb29393: invite me",
+					[29] = "|cff338bb2|r|cff338bb2[4]|r|cff338bb2 |r|cff338bb2[|cffb2b2b2|Hplayer:Skinnylatte|h|cffb2b2b2Skinnylatte|h|r|cff338bb2]|r|cff338bb2|r|cff338bb2: need some chad wand makers",
 				},
 				[2] = {
 				},
@@ -645,14 +645,14 @@ pfUI_cache = {
 		},
 	},
 	["prediction"] = {
-		["Kronos"] = {
-			["Marelle"] = {
+		["Starfall"] = {
+			["Fayz"] = {
 				["heals"] = {
 				},
 			},
 		},
-		["Starfall"] = {
-			["Fayz"] = {
+		["Kronos"] = {
+			["Marelle"] = {
 				["heals"] = {
 				},
 			},
