@@ -1,7 +1,7 @@
 
 Dcr_Saved = {
 	["Print_CustomFrame"] = false,
-	["Ingore_Stealthed"] = false,
+	["Random_Order"] = false,
 	["AfflictionTooltips"] = true,
 	["SkipList"] = {
 	},
@@ -29,7 +29,7 @@ Dcr_Saved = {
 	["Print_ChatFrame"] = false,
 	["PriorityList"] = {
 	},
-	["Random_Order"] = false,
+	["Ingore_Stealthed"] = false,
 	["CureOrderList"] = {
 		[1] = "Curse",
 		[2] = "Magic",

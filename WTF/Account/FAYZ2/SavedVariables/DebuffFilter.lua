@@ -20,8 +20,17 @@ DebuffFilter_Config = {
 		["all_fdebuffs"] = "no",
 		["fdebuffs"] = "no",
 		["buff_orientation"] = "rightleft",
-		["buffs"] = "yes",
+		["fbuff_list"] = {
+			["Berserker Rage"] = 1,
+		},
 		["fbuffs"] = "no",
+		["count"] = "no",
+		["time_orientation"] = "bottom",
+		["fdebuff_list"] = {
+			["Sunder Armor"] = 1,
+		},
+		["buffs"] = "yes",
+		["fdebuff_orientation"] = "leftright",
 		["buff_list"] = {
 			["Ice Barrier"] = 1,
 			["Ephemeral Power"] = 1,
@@ -34,15 +43,6 @@ DebuffFilter_Config = {
 			["Fire Ward"] = 1,
 			["Arcane Power"] = 1,
 		},
-		["time_orientation"] = "bottom",
-		["fdebuff_list"] = {
-			["Sunder Armor"] = 1,
-		},
-		["fbuff_list"] = {
-			["Berserker Rage"] = 1,
-		},
-		["fdebuff_orientation"] = "leftright",
-		["count"] = "no",
 	},
 	["Marelle - Northdale"] = {
 		["debuffs"] = "yes",
@@ -64,8 +64,17 @@ DebuffFilter_Config = {
 		["all_fdebuffs"] = "no",
 		["fdebuffs"] = "no",
 		["buff_orientation"] = "rightleft",
-		["buffs"] = "yes",
+		["fbuff_list"] = {
+			["Berserker Rage"] = 1,
+		},
 		["fbuffs"] = "no",
+		["count"] = "no",
+		["time_orientation"] = "bottom",
+		["fdebuff_list"] = {
+			["Sunder Armor"] = 1,
+		},
+		["buffs"] = "yes",
+		["fdebuff_orientation"] = "leftright",
 		["buff_list"] = {
 			["Ice Barrier"] = 1,
 			["Ephemeral Power"] = 1,
@@ -78,15 +87,6 @@ DebuffFilter_Config = {
 			["Fire Ward"] = 1,
 			["Arcane Power"] = 1,
 		},
-		["time_orientation"] = "bottom",
-		["fdebuff_list"] = {
-			["Sunder Armor"] = 1,
-		},
-		["fbuff_list"] = {
-			["Berserker Rage"] = 1,
-		},
-		["fdebuff_orientation"] = "leftright",
-		["count"] = "no",
 	},
 	["Fayz - Starfall"] = {
 		["debuffs"] = "yes",
@@ -108,8 +108,17 @@ DebuffFilter_Config = {
 		["all_fdebuffs"] = "no",
 		["fdebuffs"] = "no",
 		["buff_orientation"] = "rightleft",
-		["buffs"] = "yes",
+		["fbuff_list"] = {
+			["Berserker Rage"] = 1,
+		},
 		["fbuffs"] = "no",
+		["count"] = "no",
+		["time_orientation"] = "bottom",
+		["fdebuff_list"] = {
+			["Sunder Armor"] = 1,
+		},
+		["buffs"] = "yes",
+		["fdebuff_orientation"] = "leftright",
 		["buff_list"] = {
 			["Ice Barrier"] = 1,
 			["Ephemeral Power"] = 1,
@@ -122,14 +131,5 @@ DebuffFilter_Config = {
 			["Fire Ward"] = 1,
 			["Arcane Power"] = 1,
 		},
-		["time_orientation"] = "bottom",
-		["fdebuff_list"] = {
-			["Sunder Armor"] = 1,
-		},
-		["fbuff_list"] = {
-			["Berserker Rage"] = 1,
-		},
-		["fdebuff_orientation"] = "leftright",
-		["count"] = "no",
 	},
 }

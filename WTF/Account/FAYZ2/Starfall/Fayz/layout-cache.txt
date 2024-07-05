@@ -48,8 +48,8 @@ X: 0
 Y: -104
 Frame: AuxFrame
 FrameLevel: 40
-X: 469
-Y: -471
+X: 0
+Y: -492
 Frame: DebuffFilter_DebuffFrame
 FrameLevel: 2
 X: 941
@@ -62,6 +62,10 @@ Frame: DecursiveMainBar
 FrameLevel: 1
 X: 1420
 Y: -443
+Frame: EQL3_QuestWatchFrame
+FrameLevel: 1
+X: 1923
+Y: -313
 Frame: IgnitionFrame
 FrameLevel: 0
 X: 1022

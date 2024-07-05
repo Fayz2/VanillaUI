@@ -14,8 +14,8 @@ SW_Settings = {
 		},
 	},
 	["lastWOWBuild"] = "1.12.15875Sep 19 2006",
-	["IsRunning"] = true,
-	["OPT_ShowMainWinDPS"] = 1,
+	["SW_TL_AutoDelete"] = true,
+	["LAST_V_RUN"] = "2.0 Beta.7",
 	["SHOWMAIN"] = true,
 	["BFLocked"] = true,
 	["Colors"] = {
@@ -110,9 +110,10 @@ SW_Settings = {
 			[4] = 1,
 		},
 	},
-	["LAST_V_RUN"] = "2.0 Beta.7",
-	["SW_TL_AutoDelete"] = true,
+	["OPT_ShowMainWinDPS"] = 1,
+	["IsRunning"] = true,
 	["SW_IconPosR"] = 80,
+	["OPT_ShowTLB"] = 1,
 	["InfoSettings"] = {
 		[1] = {
 			["CF"] = 1,
@@ -148,206 +149,61 @@ SW_Settings = {
 			["BH"] = 10,
 		},
 	},
-	["OPT_ShowTLB"] = 1,
 }
 SW_RPS = {
 	["lastFightSecs"] = 0,
 	["allowLastFightUpdate"] = false,
 	["isRunning"] = false,
 	["startTimer"] = {
-		["uTS"] = -1471.071000099182,
-		["msO"] = -0.07099999999991269,
-		["epochTS"] = 1720167086,
+		["epochTS"] = 1720204543,
+		["msO"] = -0.4259999999994761,
+		["uTS"] = -687.4260001182556,
 	},
 	["uglyTruthStarted"] = false,
 	["lastFightDmg"] = 0,
 	["baseTimer"] = {
-		["uTS"] = -1471.071000099182,
-		["msO"] = -0.07099999999991269,
-		["epochTS"] = 1720167086,
+		["epochTS"] = 1720204543,
+		["msO"] = -0.4259999999994761,
+		["uTS"] = -687.4260001182556,
 	},
 	["totalSecs"] = 0,
-	["maxDPS"] = 0,
-	["startDmg"] = 0,
 	["currentSecs"] = 0,
+	["startDmg"] = 0,
+	["maxDPS"] = 0,
 }
 SW_StrTable = {
 	[1] = "Fayz",
-	[2] = "WORLD",
-	[3] = "Looney",
-	[4] = "Ice Armor",
-	[5] = "Arcane Intellect",
-	[6] = "Blink",
-	[7] = "Deb",
-	[8] = "Inner Fire",
-	[9] = "Power Word: Fortitude",
-	[10] = "Unknown",
-	[11] = "Blessing of Wisdom",
-	[12] = "Tapcon",
-	[13] = "Arcane Explosion",
-	[14] = "Mimi",
-	[15] = "Rat",
-	[16] = "Normal",
-	[17] = "Notlikeapunk",
-	[18] = "Dira",
-	[19] = "Spirit",
-	[20] = "Okiku",
-	[21] = "Blizzard",
-	[22] = "Theoldnorm",
-	[23] = "Frost Armor",
-	[24] = "Cone of Cold",
-	[25] = "Frost Nova",
-	[26] = "Cold Snap",
-	[27] = "Frost Ward",
-	[28] = "Foma",
-	[29] = "Curse of Stalvan",
-	[30] = "Fear Ward",
-	[31] = "Gnomikus",
-	[32] = "Valuria",
-	[33] = "Devotion Aura",
-	[34] = "Juice",
 }
 SW_DataCollection = {
 	["settings"] = {
-		["isInRaid"] = false,
+		["smallestSelect"] = 0,
 		["isInGroup"] = false,
 		["lastZone"] = "",
 		["startMarker"] = 1,
 		["biggestSelect"] = 0,
-		["smallestSelect"] = 0,
+		["isInRaid"] = false,
 		["endMarker"] = 1,
 		["activeOnly"] = true,
 	},
 	["meta"] = {
 		[1] = {
-			["type"] = "PC",
+			["origName"] = "Fayz",
 			["stringID"] = 1,
 			["everGroup"] = true,
 			["classE"] = "MAGE",
 			["level"] = 27,
-			["origName"] = "Fayz",
-			["rank"] = 0,
-		},
-		[15] = {
-			["origName"] = "Rat",
-			["classE"] = "WARRIOR",
-			["level"] = 1,
-			["stringID"] = 15,
-			["type"] = "NPC",
-		},
-		[31] = {
-			["origName"] = "Gnomikus",
-			["classE"] = "MAGE",
-			["level"] = 35,
-			["stringID"] = 31,
 			["type"] = "PC",
+			["rank"] = 0,
 		},
 	},
 	["data"] = {
 		[1] = {
-			[1] = {
-				[1] = {
-					[1] = {
-					},
-					[2] = {
-					},
-					[3] = {
-						[25] = {
-							[6] = {
-								[10] = 55,
-								[9] = 1,
-							},
-						},
-						[13] = {
-							[6] = {
-								[10] = 240,
-								[9] = 2,
-							},
-						},
-						[27] = {
-							[6] = {
-								[10] = 170,
-								[9] = 2,
-							},
-						},
-						[26] = {
-							[6] = {
-								[9] = 1,
-							},
-						},
-						[21] = {
-							[6] = {
-								[10] = 320,
-								[9] = 1,
-							},
-						},
-						[6] = {
-							[6] = {
-								[10] = 374,
-								[9] = 2,
-							},
-						},
-						[24] = {
-							[6] = {
-								[10] = 210,
-								[9] = 1,
-							},
-						},
-					},
-				},
+			["initTS"] = {
+				["uTS"] = 5.875,
+				["msO"] = -0.125,
+				["epochTS"] = 1720205236,
 			},
 			["Name"] = "Start",
-			[17] = {
-				[1] = {
-					[1] = {
-						[1] = 20,
-						[5] = 1,
-					},
-					[2] = {
-						[200] = {
-							[1] = 20,
-							[2] = 20,
-							[3] = 1,
-						},
-					},
-					[3] = {
-						[16] = {
-							[1] = {
-								[1] = 20,
-								[2] = 20,
-								[3] = 1,
-							},
-						},
-					},
-				},
-				[3] = {
-					[15] = {
-						[1] = 20,
-						[5] = 1,
-					},
-				},
-			},
-			["initTS"] = {
-				["epochTS"] = 1720167561,
-				["msO"] = 0.3840000000018335,
-				["uTS"] = -995.6159999370575,
-			},
-			[15] = {
-				[2] = {
-					[1] = {
-						[1] = 20,
-						[3] = 2,
-						[5] = 1,
-					},
-					[2] = {
-						[200] = {
-							[1] = 20,
-							[2] = 20,
-							[3] = 1,
-						},
-					},
-				},
-			},
 		},
 	},
 }
