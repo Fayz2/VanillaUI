@@ -1,5 +1,5 @@
 Frame: ChatFrame1
-FrameLevel: 11
+FrameLevel: 12
 X: 5
 Y: -1040
 W: 377
@@ -27,7 +27,7 @@ FrameLevel: 14
 X: 0
 Y: -104
 Frame: CharacterFrame
-FrameLevel: 34
+FrameLevel: 48
 X: 0
 Y: -104
 Frame: QuestFrame
@@ -35,7 +35,7 @@ FrameLevel: 26
 X: 0
 Y: -104
 Frame: MerchantFrame
-FrameLevel: 56
+FrameLevel: 41
 X: 0
 Y: -104
 Frame: FriendsFrame
@@ -43,13 +43,13 @@ FrameLevel: 18
 X: 0
 Y: -104
 Frame: GossipFrame
-FrameLevel: 49
+FrameLevel: 34
 X: 0
 Y: -104
 Frame: AuxFrame
-FrameLevel: 40
-X: 0
-Y: -492
+FrameLevel: 54
+X: 14
+Y: -439
 Frame: DebuffFilter_DebuffFrame
 FrameLevel: 2
 X: 941
@@ -64,7 +64,7 @@ X: 1420
 Y: -443
 Frame: EQL3_QuestWatchFrame
 FrameLevel: 1
-X: 1923
+X: 1959
 Y: -313
 Frame: IgnitionFrame
 FrameLevel: 0
