@@ -4,7 +4,7 @@ KLHTM_SavedVariables = {
 		["state"] = {
 			["view"] = "raid",
 			["max"] = true,
-			["pinned"] = true,
+			["pinned"] = false,
 			["closed"] = false,
 			["min"] = false,
 			["raid"] = true,
@@ -19,7 +19,7 @@ KLHTM_SavedVariables = {
 					["threat"] = true,
 					["name"] = true,
 					["pc"] = true,
-					["rage"] = false,
+					["rage"] = true,
 					["hits"] = true,
 				},
 				["sortColumn"] = "threat",
@@ -30,11 +30,11 @@ KLHTM_SavedVariables = {
 					["threat"] = true,
 				},
 			},
-			["scale"] = 1.02,
+			["scale"] = 1,
 			["raid"] = {
 				["abbreviate"] = false,
 				["hideZeroRows"] = true,
-				["hideBottomBar"] = true,
+				["hideBottomBar"] = false,
 				["rows"] = 10,
 				["columnVis"] = {
 					["pc"] = true,
