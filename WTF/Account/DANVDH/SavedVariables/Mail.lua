@@ -10,7 +10,7 @@ Mail_AutoCompleteNames = {
 		["Fayz"] = 14215.582,
 	},
 	["Kronos|Alliance"] = {
-		["Marelle"] = 13551.056,
+		["Marelle"] = 17394.306,
 		["Merylbank"] = 11921.083,
 		["Marelemule"] = 8568.469000000001,
 		["Marelebank"] = 8594.162,

@@ -1,5 +1,5 @@
 Frame: ChatFrame1
-FrameLevel: 14
+FrameLevel: 2
 X: 5
 Y: -1040
 W: 377
@@ -17,7 +17,7 @@ Y: -1040
 W: 377
 H: 133
 Frame: ChatFrame4
-FrameLevel: 10
+FrameLevel: 2
 X: 5
 Y: -1040
 W: 377

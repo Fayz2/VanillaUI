@@ -457,218 +457,49 @@ pfUI_addon_profiles = {
 	},
 }
 pfUI_cache = {
-	["prediction"] = {
-		["Kronos"] = {
-			["Marelle"] = {
-				["heals"] = {
-				},
-			},
+	["abuttons"] = {
+		["del"] = {
+		},
+		["add"] = {
 		},
 	},
 	["libhealth"] = {
-		["Blazing Fireguard:52"] = {
-			[1] = 5772,
-			[2] = 94,
-			[3] = 10,
-		},
-		["Twilight Emissary:53"] = {
-			[1] = 4692,
-			[2] = 84,
-			[3] = 11,
-		},
-		["Doomforge Craftsman:53"] = {
-			[1] = 3198,
-			[2] = 97,
-			[3] = 7,
-		},
-		["Anvilrage Officer:54"] = {
-			[1] = 7141,
-			[2] = 81,
-			[3] = 10,
-		},
-		["Overmaster Pyron:52"] = {
-			[1] = 15200,
-			[2] = 1,
-			[3] = 1,
-		},
-		["Verek:55"] = {
-			[1] = 10197,
-			[2] = 85,
-			[3] = 16,
-		},
-		["Argent Outfitter:55"] = {
-			[1] = 5005,
-			[2] = 99,
-			[3] = 10,
-		},
-		["Blazing Fireguard:53"] = {
-			[1] = 5706,
-			[2] = 69,
-			[3] = 8,
-		},
-		["Doomforge Craftsman:52"] = {
-			[1] = 3119,
-			[2] = 16,
-			[3] = 1,
-		},
-		["Anvilrage Soldier:53"] = {
-			[1] = 6268,
-			[2] = 85,
-			[3] = 17,
-		},
-		["Shadowforge Peasant:53"] = {
-			[1] = 2515,
-			[2] = 62,
-			[3] = 4,
-		},
-		["Dark Guard:53"] = {
-			[1] = 7290,
-			[2] = 73,
-			[3] = 20,
-		},
-		["Shadowforge Peasant:54"] = {
-			[1] = 2634,
-			[2] = 21,
-			[3] = 1,
-		},
-		["Dark Keeper Bethek:55"] = {
-			[1] = 6041,
-			[2] = 96,
-			[3] = 10,
-		},
-		["Anvilrage Medic:52"] = {
-			[1] = 5391,
-			[2] = 43,
-			[3] = 9,
-		},
-		["Warder Stilgiss:56"] = {
-			[1] = 8296,
-			[2] = 64,
-			[3] = 7,
-		},
-		["Dark Guard:54"] = {
-			[1] = 8009,
-			[2] = 35,
-			[3] = 4,
-		},
-		["Fireguard Destroyer:56"] = {
-			[1] = 7998,
-			[2] = 89,
-			[3] = 14,
-		},
-		["Warbringer Construct:53"] = {
-			[1] = 7156,
-			[2] = 49,
-			[3] = 6,
-		},
-		["Blazing Fireguard:54"] = {
-			[1] = 6091,
-			[2] = 86,
-			[3] = 6,
-		},
-		["Twilight Bodyguard:53"] = {
-			[1] = 5588,
-			[2] = 88,
-			[3] = 9,
-		},
-		["Twilight Bodyguard:54"] = {
-			[1] = 5898,
-			[2] = 99,
-			[3] = 10,
-		},
-		["Doomforge Craftsman:54"] = {
-			[1] = 2900,
-			[2] = 22,
-			[3] = 2,
-		},
-		["Anvilrage Warden:49"] = {
-			[1] = 7600,
-			[2] = 1,
-			[3] = 1,
-		},
-		["Fineous Darkvire:54"] = {
-			[1] = 15350,
-			[2] = 10,
-			[3] = 4,
-		},
-		["Twilight Emissary:52"] = {
-			[1] = 4648,
-			[2] = 80,
-			[3] = 7,
-		},
-		["Shadowforge Peasant:52"] = {
-			[1] = 2114,
-			[2] = 80,
-			[3] = 4,
-		},
-		["Anvilrage Guardsman:50"] = {
-			[1] = 6025,
-			[2] = 68,
-			[3] = 9,
-		},
-		["Anvilrage Guardsman:51"] = {
-			[1] = 6711,
-			[2] = 48,
-			[3] = 3,
-		},
 	},
 	["gold"] = {
 		["Kronos"] = {
-			["Marelle"] = 54757968,
+			["Marelle"] = 54507968,
 		},
 	},
 	["chathistory"] = {
 		["Kronos"] = {
 			["Marelle"] = {
 				[1] = {
-					[1] = "|cffb29393|r|cffb29393[5]|r|cffb29393 |r|cffb29393[|cffb2b2b2|Hplayer:Spitfire|h|cffb2b2b2Spitfire|h|r|cffb29393]|r|cffb29393|r|cffb29393: ppl left for bed already",
-					[2] = "|cffb29393|r|cffb29393[5]|r|cffb29393 |r|cffb29393[|cffaad372|Hplayer:Elvundel|h|cffaad372Elvundel|h|r|cffb29393]|r|cffb29393|r|cffb29393: 1 more try?",
-					[3] = "|cffb2b282Thomas Miller says: Get it while it's hot!",
-					[4] = "|cffb2b282Thomas Miller says: Fresh bread for sale!",
-					[5] = "|cffb29393Joined Channel: [5. world]",
-					[6] = "|cff338bb2Joined Channel: [4. LookingForGroup]",
-					[7] = "|cffb29393Joined Channel: [3. LocalDefense - Stormwind City]",
-					[8] = "|cffb29393Joined Channel: [2. Trade - City]",
-					[9] = "|cffb29393Joined Channel: [1. General - Stormwind City]",
-					[10] = "|cff53b253Guild Message of the Day: Thanks Guys for having been part of a 7 year journey! All the best to everyone, it was a blast! Check Forum for Retail Info",
-					[11] = "|cffb2b233Welcome to Kronos. Please follow the server and chat rules. Enjoy your stay.",
-					[12] = "|cff5972b2To show Decursive's frame, type /dcrshow",
-					[13] = "|cff5972b2Decursive is now initialized, remember to check the options",
-					[14] = "|cffffff9a<aux> loaded - /aux",
-					[15] = "|cffb2b2b2Extended QuestLog |cffccccff|Hurl:v3.6.1|h[v3.6.1]|h|r|cffb2b2b2 Loaded for Marelle of Kronos. Courtesy of Sir Basara the Dragonslayer",
-					[16] = "VCB 4.0 is now loaded! Use the command /vcb to configure VCB!",
-					[17] = "|cffb2b282Thomas Miller says: Get it while it's hot!",
-					[18] = "|cffb2b282Thomas Miller says: Fresh bread for sale!",
-					[19] = "|cffb29393Joined Channel: [5. world]",
-					[20] = "|cff338bb2Joined Channel: [4. LookingForGroup]",
-					[21] = "|cffb29393Joined Channel: [3. LocalDefense - Stormwind City]",
-					[22] = "|cffb29393Joined Channel: [2. Trade - City]",
-					[23] = "|cffb29393Joined Channel: [1. General - Stormwind City]",
-					[24] = "|cff53b253Guild Message of the Day: Thanks Guys for having been part of a 7 year journey! All the best to everyone, it was a blast! Check Forum for Retail Info",
-					[25] = "|cffb2b233Welcome to Kronos. Please follow the server and chat rules. Enjoy your stay.",
-					[26] = "|cff5972b2To show Decursive's frame, type /dcrshow",
-					[27] = "|cff5972b2Decursive is now initialized, remember to check the options",
-					[28] = "|cffffff9a<aux> loaded - /aux",
-					[29] = "|cffb2b2b2Extended QuestLog |cffccccff|Hurl:v3.6.1|h[v3.6.1]|h|r|cffb2b2b2 Loaded for Marelle of Kronos. Courtesy of Sir Basara the Dragonslayer",
+					[1] = "|cffb29393[5. world] Player Marelle is already on the channel.",
+					[2] = "|cff5972b2To show Decursive's frame, type /dcrshow",
+					[3] = "|cff5972b2Decursive is now initialized, remember to check the options",
+					[4] = "|cffffff9a<aux> loaded - /aux",
+					[5] = "|cffb2b2b2Extended QuestLog |cffccccff|Hurl:v3.6.1|h[v3.6.1]|h|r|cffb2b2b2 Loaded for Marelle of Kronos. Courtesy of Sir Basara the Dragonslayer",
+					[6] = "VCB 4.0 is now loaded! Use the command /vcb to configure VCB!",
 				},
 				[2] = {
 				},
 				[3] = {
 				},
 				[4] = {
-					[1] = "|cff53b253Guild Message of the Day: Thanks Guys for having been part of a 7 year journey! All the best to everyone, it was a blast! Check Forum for Retail Info",
-					[2] = "|cff53b253Guild Message of the Day: Thanks Guys for having been part of a 7 year journey! All the best to everyone, it was a blast! Check Forum for Retail Info",
-					[3] = "|cff53b253Guild Message of the Day: Thanks Guys for having been part of a 7 year journey! All the best to everyone, it was a blast! Check Forum for Retail Info",
-					[4] = "|cff53b253Guild Message of the Day: Thanks Guys for having been part of a 7 year journey! All the best to everyone, it was a blast! Check Forum for Retail Info",
-					[5] = "|cff53b253Guild Message of the Day: Thanks Guys for having been part of a 7 year journey! All the best to everyone, it was a blast! Check Forum for Retail Info",
-					[6] = "|cff53b253Guild Message of the Day: Thanks Guys for having been part of a 7 year journey! All the best to everyone, it was a blast! Check Forum for Retail Info",
-					[7] = "|cff53b253Guild Message of the Day: Thanks Guys for having been part of a 7 year journey! All the best to everyone, it was a blast! Check Forum for Retail Info",
 				},
 				[5] = {
 				},
 				[6] = {
 				},
 				[7] = {
+				},
+			},
+		},
+	},
+	["prediction"] = {
+		["Kronos"] = {
+			["Marelle"] = {
+				["heals"] = {
 				},
 			},
 		},
