@@ -4,13 +4,57 @@ gOutfitter_Settings = {
 		[1] = {
 			["Name"] = "Fire",
 		},
+		[2] = {
+			["Items"] = {
+				["Trinket0Slot"] = {
+					["Name"] = "Mind Quickening Gem",
+					["Code"] = 19339,
+					["SubCode"] = 0,
+					["EnchantCode"] = 0,
+				},
+			},
+		},
 	},
+	["Version"] = 7,
 	["Options"] = {
 		["MinimapButtonAngle"] = -1.5708,
 	},
-	["Version"] = 7,
+	["HideHelm"] = {
+		[22498] = true,
+		[23032] = true,
+	},
 	["Outfits"] = {
 		["Partial"] = {
+			[1] = {
+				["Items"] = {
+					["FeetSlot"] = {
+						["Name"] = "Netherwind Boots",
+						["Code"] = 16912,
+						["SubCode"] = 0,
+						["EnchantCode"] = 911,
+					},
+					["AmmoSlot"] = {
+						["Name"] = "",
+						["Code"] = 0,
+						["SubCode"] = 0,
+						["EnchantCode"] = 0,
+					},
+					["Trinket0Slot"] = {
+						["Name"] = "Carrot on a Stick",
+						["Code"] = 11122,
+						["SubCode"] = 0,
+						["EnchantCode"] = 0,
+					},
+					["HandsSlot"] = {
+						["Name"] = "Frostfire Gloves",
+						["Code"] = 22501,
+						["SubCode"] = 0,
+						["EnchantCode"] = 930,
+					},
+				},
+				["CategoryID"] = "Partial",
+				["Name"] = "Mount",
+			},
 		},
 		["Accessory"] = {
 		},
@@ -19,64 +63,64 @@ gOutfitter_Settings = {
 				["Items"] = {
 				},
 				["StatID"] = "ArgentDawn",
-				["Name"] = "Argent Dawn",
 				["Disabled"] = true,
+				["Name"] = "Argent Dawn",
 				["CategoryID"] = "Special",
 				["SpecialID"] = "ArgentDawn",
 			},
 			[2] = {
 				["Items"] = {
 				},
-				["Name"] = "Around Town",
 				["Disabled"] = true,
+				["Name"] = "Around Town",
 				["CategoryID"] = "Special",
 				["SpecialID"] = "City",
 			},
 			[3] = {
 				["Items"] = {
 				},
-				["Name"] = "Battleground",
 				["Disabled"] = true,
+				["Name"] = "Battleground",
 				["CategoryID"] = "Special",
 				["SpecialID"] = "Battleground",
 			},
 			[4] = {
 				["Items"] = {
 				},
-				["Name"] = "Battleground: Alterac Valley",
 				["Disabled"] = true,
+				["Name"] = "Battleground: Alterac Valley",
 				["CategoryID"] = "Special",
 				["SpecialID"] = "AV",
 			},
 			[5] = {
 				["Items"] = {
 				},
-				["Name"] = "Battleground: Arathi Basin",
 				["Disabled"] = true,
+				["Name"] = "Battleground: Arathi Basin",
 				["CategoryID"] = "Special",
 				["SpecialID"] = "AB",
 			},
 			[6] = {
 				["Items"] = {
 				},
-				["Name"] = "Battleground: Warsong Gulch",
 				["Disabled"] = true,
+				["Name"] = "Battleground: Warsong Gulch",
 				["CategoryID"] = "Special",
 				["SpecialID"] = "WSG",
 			},
 			[7] = {
 				["Items"] = {
 				},
-				["Name"] = "Dining",
 				["Disabled"] = true,
+				["Name"] = "Dining",
 				["CategoryID"] = "Special",
 				["SpecialID"] = "Dining",
 			},
 			[8] = {
 				["Items"] = {
 				},
-				["Name"] = "Mage: Evocate",
 				["Disabled"] = true,
+				["Name"] = "Mage: Evocate",
 				["CategoryID"] = "Special",
 				["SpecialID"] = "Evocate",
 			},
@@ -92,20 +136,20 @@ gOutfitter_Settings = {
 						["EnchantCode"] = 930,
 					},
 				},
-				["CategoryID"] = "Special",
-				["StatID"] = "Riding",
 				["Name"] = "Riding",
+				["StatID"] = "Riding",
+				["CategoryID"] = "Special",
 				["SpecialID"] = "Riding",
 			},
 		},
 		["Complete"] = {
 			[1] = {
 				["Items"] = {
-					["WristSlot"] = {
-						["Name"] = "The Soul Harvester's Bindings",
-						["Code"] = 23021,
+					["Finger0Slot"] = {
+						["Name"] = "Ring of the Fallen God",
+						["Code"] = 21709,
 						["SubCode"] = 0,
-						["EnchantCode"] = 1883,
+						["EnchantCode"] = 0,
 					},
 					["BackSlot"] = {
 						["Name"] = "Cloak of the Necropolis",
@@ -143,11 +187,11 @@ gOutfitter_Settings = {
 						["SubCode"] = 0,
 						["EnchantCode"] = 0,
 					},
-					["RangedSlot"] = {
-						["Name"] = "Doomfinger",
-						["Code"] = 22821,
+					["ChestSlot"] = {
+						["Name"] = "Netherwind Robes",
+						["Code"] = 16916,
 						["SubCode"] = 0,
-						["EnchantCode"] = 0,
+						["EnchantCode"] = 1892,
 					},
 					["Trinket1Slot"] = {
 						["Name"] = "Neltharion's Tear",
@@ -167,23 +211,47 @@ gOutfitter_Settings = {
 						["SubCode"] = 0,
 						["EnchantCode"] = 2504,
 					},
-					["Finger0Slot"] = {
-						["Name"] = "Ring of the Fallen God",
-						["Code"] = 21709,
+					["WaistSlot"] = {
+						["Name"] = "Netherwind Belt",
+						["Code"] = 16818,
 						["SubCode"] = 0,
 						["EnchantCode"] = 0,
 					},
-					["ChestSlot"] = {
-						["Name"] = "Netherwind Robes",
-						["Code"] = 16916,
+					["LegsSlot"] = {
+						["Name"] = "Netherwind Pants",
+						["Code"] = 16915,
 						["SubCode"] = 0,
-						["EnchantCode"] = 1892,
+						["EnchantCode"] = 2588,
 					},
 					["SecondaryHandSlot"] = {
 						["Name"] = "Sapphiron's Left Eye",
 						["Code"] = 23049,
 						["SubCode"] = 0,
 						["EnchantCode"] = 0,
+					},
+					["AmmoSlot"] = {
+						["Name"] = "",
+						["Code"] = 0,
+						["SubCode"] = 0,
+						["EnchantCode"] = 0,
+					},
+					["NeckSlot"] = {
+						["Name"] = "Gem of Trapped Innocents",
+						["Code"] = 23057,
+						["SubCode"] = 0,
+						["EnchantCode"] = 0,
+					},
+					["RangedSlot"] = {
+						["Name"] = "Doomfinger",
+						["Code"] = 22821,
+						["SubCode"] = 0,
+						["EnchantCode"] = 0,
+					},
+					["WristSlot"] = {
+						["Name"] = "The Soul Harvester's Bindings",
+						["Code"] = 23021,
+						["SubCode"] = 0,
+						["EnchantCode"] = 1883,
 					},
 					["ShirtSlot"] = {
 						["Name"] = "",
@@ -197,41 +265,17 @@ gOutfitter_Settings = {
 						["SubCode"] = 0,
 						["EnchantCode"] = 2605,
 					},
-					["NeckSlot"] = {
-						["Name"] = "Gem of Trapped Innocents",
-						["Code"] = 23057,
-						["SubCode"] = 0,
-						["EnchantCode"] = 0,
-					},
-					["AmmoSlot"] = {
-						["Name"] = "",
-						["Code"] = 0,
-						["SubCode"] = 0,
-						["EnchantCode"] = 0,
-					},
-					["LegsSlot"] = {
-						["Name"] = "Netherwind Pants",
-						["Code"] = 16915,
-						["SubCode"] = 0,
-						["EnchantCode"] = 2588,
-					},
-					["WaistSlot"] = {
-						["Name"] = "Netherwind Belt",
-						["Code"] = 16818,
-						["SubCode"] = 0,
-						["EnchantCode"] = 0,
-					},
 				},
-				["CategoryID"] = "Complete",
 				["Name"] = "AoE-Farm",
+				["CategoryID"] = "Complete",
 			},
 			[2] = {
 				["Items"] = {
-					["Finger0Slot"] = {
-						["Name"] = "Ring of the Eternal Flame",
-						["Code"] = 23237,
+					["WristSlot"] = {
+						["Name"] = "The Soul Harvester's Bindings",
+						["Code"] = 23021,
 						["SubCode"] = 0,
-						["EnchantCode"] = 0,
+						["EnchantCode"] = 1883,
 					},
 					["BackSlot"] = {
 						["Name"] = "Cloak of the Necropolis",
@@ -269,11 +313,11 @@ gOutfitter_Settings = {
 						["SubCode"] = 0,
 						["EnchantCode"] = 0,
 					},
-					["ChestSlot"] = {
-						["Name"] = "Frostfire Robe",
-						["Code"] = 22496,
+					["RangedSlot"] = {
+						["Name"] = "Doomfinger",
+						["Code"] = 22821,
 						["SubCode"] = 0,
-						["EnchantCode"] = 1891,
+						["EnchantCode"] = 0,
 					},
 					["Trinket1Slot"] = {
 						["Name"] = "Neltharion's Tear",
@@ -293,17 +337,47 @@ gOutfitter_Settings = {
 						["SubCode"] = 0,
 						["EnchantCode"] = 2504,
 					},
+					["WaistSlot"] = {
+						["Name"] = "Eyestalk Waist Cord",
+						["Code"] = 22730,
+						["SubCode"] = 0,
+						["EnchantCode"] = 0,
+					},
+					["LegsSlot"] = {
+						["Name"] = "Leggings of Polarity",
+						["Code"] = 23070,
+						["SubCode"] = 0,
+						["EnchantCode"] = 2588,
+					},
 					["ShirtSlot"] = {
 						["Name"] = "",
 						["Code"] = 0,
 						["SubCode"] = 0,
 						["EnchantCode"] = 0,
 					},
-					["WristSlot"] = {
-						["Name"] = "The Soul Harvester's Bindings",
-						["Code"] = 23021,
+					["AmmoSlot"] = {
+						["Name"] = "",
+						["Code"] = 0,
 						["SubCode"] = 0,
-						["EnchantCode"] = 1883,
+						["EnchantCode"] = 0,
+					},
+					["NeckSlot"] = {
+						["Name"] = "Gem of Trapped Innocents",
+						["Code"] = 23057,
+						["SubCode"] = 0,
+						["EnchantCode"] = 0,
+					},
+					["ChestSlot"] = {
+						["Name"] = "Frostfire Robe",
+						["Code"] = 22496,
+						["SubCode"] = 0,
+						["EnchantCode"] = 1891,
+					},
+					["Finger0Slot"] = {
+						["Name"] = "Ring of the Eternal Flame",
+						["Code"] = 23237,
+						["SubCode"] = 0,
+						["EnchantCode"] = 0,
 					},
 					["SecondaryHandSlot"] = {
 						["Name"] = "Sapphiron's Left Eye",
@@ -317,47 +391,17 @@ gOutfitter_Settings = {
 						["SubCode"] = 0,
 						["EnchantCode"] = 2721,
 					},
-					["RangedSlot"] = {
-						["Name"] = "Doomfinger",
-						["Code"] = 22821,
-						["SubCode"] = 0,
-						["EnchantCode"] = 0,
-					},
-					["NeckSlot"] = {
-						["Name"] = "Gem of Trapped Innocents",
-						["Code"] = 23057,
-						["SubCode"] = 0,
-						["EnchantCode"] = 0,
-					},
-					["AmmoSlot"] = {
-						["Name"] = "",
-						["Code"] = 0,
-						["SubCode"] = 0,
-						["EnchantCode"] = 0,
-					},
-					["LegsSlot"] = {
-						["Name"] = "Leggings of Polarity",
-						["Code"] = 23070,
-						["SubCode"] = 0,
-						["EnchantCode"] = 2588,
-					},
-					["WaistSlot"] = {
-						["Name"] = "Eyestalk Waist Cord",
-						["Code"] = 22730,
-						["SubCode"] = 0,
-						["EnchantCode"] = 0,
-					},
 				},
-				["CategoryID"] = "Complete",
 				["Name"] = "Fire",
+				["CategoryID"] = "Complete",
 			},
 			[3] = {
 				["Items"] = {
-					["Finger0Slot"] = {
-						["Name"] = "Ring of the Fallen God",
-						["Code"] = 21709,
+					["WristSlot"] = {
+						["Name"] = "The Soul Harvester's Bindings",
+						["Code"] = 23021,
 						["SubCode"] = 0,
-						["EnchantCode"] = 0,
+						["EnchantCode"] = 1883,
 					},
 					["BackSlot"] = {
 						["Name"] = "Cloak of the Necropolis",
@@ -395,11 +439,11 @@ gOutfitter_Settings = {
 						["SubCode"] = 0,
 						["EnchantCode"] = 0,
 					},
-					["ChestSlot"] = {
-						["Name"] = "Frostfire Robe",
-						["Code"] = 22496,
+					["RangedSlot"] = {
+						["Name"] = "Doomfinger",
+						["Code"] = 22821,
 						["SubCode"] = 0,
-						["EnchantCode"] = 1891,
+						["EnchantCode"] = 0,
 					},
 					["Trinket1Slot"] = {
 						["Name"] = "Neltharion's Tear",
@@ -419,17 +463,47 @@ gOutfitter_Settings = {
 						["SubCode"] = 0,
 						["EnchantCode"] = 2504,
 					},
+					["WaistSlot"] = {
+						["Name"] = "Eyestalk Waist Cord",
+						["Code"] = 22730,
+						["SubCode"] = 0,
+						["EnchantCode"] = 0,
+					},
+					["LegsSlot"] = {
+						["Name"] = "Leggings of Polarity",
+						["Code"] = 23070,
+						["SubCode"] = 0,
+						["EnchantCode"] = 2588,
+					},
 					["ShirtSlot"] = {
 						["Name"] = "",
 						["Code"] = 0,
 						["SubCode"] = 0,
 						["EnchantCode"] = 0,
 					},
-					["WristSlot"] = {
-						["Name"] = "The Soul Harvester's Bindings",
-						["Code"] = 23021,
+					["AmmoSlot"] = {
+						["Name"] = "",
+						["Code"] = 0,
 						["SubCode"] = 0,
-						["EnchantCode"] = 1883,
+						["EnchantCode"] = 0,
+					},
+					["NeckSlot"] = {
+						["Name"] = "Gem of Trapped Innocents",
+						["Code"] = 23057,
+						["SubCode"] = 0,
+						["EnchantCode"] = 0,
+					},
+					["ChestSlot"] = {
+						["Name"] = "Frostfire Robe",
+						["Code"] = 22496,
+						["SubCode"] = 0,
+						["EnchantCode"] = 1891,
+					},
+					["Finger0Slot"] = {
+						["Name"] = "Ring of the Fallen God",
+						["Code"] = 21709,
+						["SubCode"] = 0,
+						["EnchantCode"] = 0,
 					},
 					["SecondaryHandSlot"] = {
 						["Name"] = "Sapphiron's Left Eye",
@@ -443,39 +517,9 @@ gOutfitter_Settings = {
 						["SubCode"] = 0,
 						["EnchantCode"] = 2721,
 					},
-					["RangedSlot"] = {
-						["Name"] = "Doomfinger",
-						["Code"] = 22821,
-						["SubCode"] = 0,
-						["EnchantCode"] = 0,
-					},
-					["NeckSlot"] = {
-						["Name"] = "Gem of Trapped Innocents",
-						["Code"] = 23057,
-						["SubCode"] = 0,
-						["EnchantCode"] = 0,
-					},
-					["AmmoSlot"] = {
-						["Name"] = "",
-						["Code"] = 0,
-						["SubCode"] = 0,
-						["EnchantCode"] = 0,
-					},
-					["LegsSlot"] = {
-						["Name"] = "Leggings of Polarity",
-						["Code"] = 23070,
-						["SubCode"] = 0,
-						["EnchantCode"] = 2588,
-					},
-					["WaistSlot"] = {
-						["Name"] = "Eyestalk Waist Cord",
-						["Code"] = 22730,
-						["SubCode"] = 0,
-						["EnchantCode"] = 0,
-					},
 				},
-				["CategoryID"] = "Complete",
 				["Name"] = "Frost",
+				["CategoryID"] = "Complete",
 			},
 			[4] = {
 				["Items"] = {
@@ -545,17 +589,17 @@ gOutfitter_Settings = {
 						["SubCode"] = 0,
 						["EnchantCode"] = 2504,
 					},
-					["WaistSlot"] = {
-						["Name"] = "Frostfire Belt",
-						["Code"] = 22502,
+					["ShoulderSlot"] = {
+						["Name"] = "Frostfire Shoulderpads",
+						["Code"] = 22499,
+						["SubCode"] = 0,
+						["EnchantCode"] = 2605,
+					},
+					["ShirtSlot"] = {
+						["Name"] = "",
+						["Code"] = 0,
 						["SubCode"] = 0,
 						["EnchantCode"] = 0,
-					},
-					["LegsSlot"] = {
-						["Name"] = "Leggings of Polarity",
-						["Code"] = 23070,
-						["SubCode"] = 0,
-						["EnchantCode"] = 2588,
 					},
 					["SecondaryHandSlot"] = {
 						["Name"] = "Sapphiron's Left Eye",
@@ -563,9 +607,15 @@ gOutfitter_Settings = {
 						["SubCode"] = 0,
 						["EnchantCode"] = 0,
 					},
-					["AmmoSlot"] = {
-						["Name"] = "",
-						["Code"] = 0,
+					["WristSlot"] = {
+						["Name"] = "The Soul Harvester's Bindings",
+						["Code"] = 23021,
+						["SubCode"] = 0,
+						["EnchantCode"] = 1883,
+					},
+					["RangedSlot"] = {
+						["Name"] = "Doomfinger",
+						["Code"] = 22821,
 						["SubCode"] = 0,
 						["EnchantCode"] = 0,
 					},
@@ -575,41 +625,35 @@ gOutfitter_Settings = {
 						["SubCode"] = 0,
 						["EnchantCode"] = 0,
 					},
-					["RangedSlot"] = {
-						["Name"] = "Doomfinger",
-						["Code"] = 22821,
-						["SubCode"] = 0,
-						["EnchantCode"] = 0,
-					},
-					["ShoulderSlot"] = {
-						["Name"] = "Frostfire Shoulderpads",
-						["Code"] = 22499,
-						["SubCode"] = 0,
-						["EnchantCode"] = 2605,
-					},
-					["WristSlot"] = {
-						["Name"] = "The Soul Harvester's Bindings",
-						["Code"] = 23021,
-						["SubCode"] = 0,
-						["EnchantCode"] = 1883,
-					},
-					["ShirtSlot"] = {
+					["AmmoSlot"] = {
 						["Name"] = "",
 						["Code"] = 0,
 						["SubCode"] = 0,
 						["EnchantCode"] = 0,
 					},
+					["LegsSlot"] = {
+						["Name"] = "Leggings of Polarity",
+						["Code"] = 23070,
+						["SubCode"] = 0,
+						["EnchantCode"] = 2588,
+					},
+					["WaistSlot"] = {
+						["Name"] = "Frostfire Belt",
+						["Code"] = 22502,
+						["SubCode"] = 0,
+						["EnchantCode"] = 0,
+					},
 				},
-				["Name"] = "RP",
 				["CategoryID"] = "Complete",
+				["Name"] = "RP",
 			},
 			[5] = {
 				["Items"] = {
-					["WristSlot"] = {
-						["Name"] = "Glacial Wrists",
-						["Code"] = 22655,
+					["Finger0Slot"] = {
+						["Name"] = "Ring of the Fallen God",
+						["Code"] = 21709,
 						["SubCode"] = 0,
-						["EnchantCode"] = 1886,
+						["EnchantCode"] = 0,
 					},
 					["BackSlot"] = {
 						["Name"] = "Cloak of the Necropolis",
@@ -647,11 +691,11 @@ gOutfitter_Settings = {
 						["SubCode"] = 0,
 						["EnchantCode"] = 0,
 					},
-					["RangedSlot"] = {
-						["Name"] = "Doomfinger",
-						["Code"] = 22821,
+					["ChestSlot"] = {
+						["Name"] = "Frostfire Robe",
+						["Code"] = 22496,
 						["SubCode"] = 0,
-						["EnchantCode"] = 0,
+						["EnchantCode"] = 1891,
 					},
 					["Trinket1Slot"] = {
 						["Name"] = "Neltharion's Tear",
@@ -671,23 +715,47 @@ gOutfitter_Settings = {
 						["SubCode"] = 0,
 						["EnchantCode"] = 2504,
 					},
-					["Finger0Slot"] = {
-						["Name"] = "Ring of the Fallen God",
-						["Code"] = 21709,
+					["WaistSlot"] = {
+						["Name"] = "Eyestalk Waist Cord",
+						["Code"] = 22730,
 						["SubCode"] = 0,
 						["EnchantCode"] = 0,
 					},
-					["ChestSlot"] = {
-						["Name"] = "Frostfire Robe",
-						["Code"] = 22496,
+					["LegsSlot"] = {
+						["Name"] = "Glacial Leggings",
+						["Code"] = 22700,
 						["SubCode"] = 0,
-						["EnchantCode"] = 1891,
+						["EnchantCode"] = 2682,
 					},
 					["SecondaryHandSlot"] = {
 						["Name"] = "Sapphiron's Left Eye",
 						["Code"] = 23049,
 						["SubCode"] = 0,
 						["EnchantCode"] = 0,
+					},
+					["AmmoSlot"] = {
+						["Name"] = "",
+						["Code"] = 0,
+						["SubCode"] = 0,
+						["EnchantCode"] = 0,
+					},
+					["NeckSlot"] = {
+						["Name"] = "Gem of Trapped Innocents",
+						["Code"] = 23057,
+						["SubCode"] = 0,
+						["EnchantCode"] = 0,
+					},
+					["RangedSlot"] = {
+						["Name"] = "Doomfinger",
+						["Code"] = 22821,
+						["SubCode"] = 0,
+						["EnchantCode"] = 0,
+					},
+					["WristSlot"] = {
+						["Name"] = "Glacial Wrists",
+						["Code"] = 22655,
+						["SubCode"] = 0,
+						["EnchantCode"] = 1886,
 					},
 					["ShirtSlot"] = {
 						["Name"] = "",
@@ -701,39 +769,11 @@ gOutfitter_Settings = {
 						["SubCode"] = 0,
 						["EnchantCode"] = 2721,
 					},
-					["NeckSlot"] = {
-						["Name"] = "Gem of Trapped Innocents",
-						["Code"] = 23057,
-						["SubCode"] = 0,
-						["EnchantCode"] = 0,
-					},
-					["AmmoSlot"] = {
-						["Name"] = "",
-						["Code"] = 0,
-						["SubCode"] = 0,
-						["EnchantCode"] = 0,
-					},
-					["LegsSlot"] = {
-						["Name"] = "Glacial Leggings",
-						["Code"] = 22700,
-						["SubCode"] = 0,
-						["EnchantCode"] = 2682,
-					},
-					["WaistSlot"] = {
-						["Name"] = "Eyestalk Waist Cord",
-						["Code"] = 22730,
-						["SubCode"] = 0,
-						["EnchantCode"] = 0,
-					},
 				},
-				["CategoryID"] = "Complete",
 				["Name"] = "Resist-Frost",
+				["CategoryID"] = "Complete",
 			},
 		},
-	},
-	["HideHelm"] = {
-		[23032] = true,
-		[22498] = true,
 	},
 	["HideCloak"] = {
 		[23050] = true,
