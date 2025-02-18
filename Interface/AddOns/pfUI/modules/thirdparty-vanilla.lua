@@ -856,7 +856,7 @@ pfUI:RegisterModule("thirdparty-vanilla", "vanilla", function()
 
     -- make theorycraft aware of pfUI bars
     for i=1,10 do
-      for j=1,10 do
+      for j=1,12 do
         TheoryCraft_SetUpButton(pfUI.bars[i][j]:GetName(), "Normal")
       end
     end
@@ -1009,13 +1009,17 @@ pfUI:RegisterModule("thirdparty-vanilla", "vanilla", function()
     if C.thirdparty.bcs.enable == "0" then return end
     StripTextures(BetterCharacterAttributesFrame)
 
-    SkinDropDown(PlayerStatFrameLeftDropDown, nil, nil, nil, true)
-    PlayerStatFrameLeftDropDown.backdrop:SetPoint("TOPLEFT", 19, -2)
-    PlayerStatFrameLeftDropDown.backdrop:SetPoint("BOTTOMRIGHT", -19, 7)
+    if PlayerStatFrameLeftDropDown then
+      SkinDropDown(PlayerStatFrameLeftDropDown, nil, nil, nil, true)
+      PlayerStatFrameLeftDropDown.backdrop:SetPoint("TOPLEFT", 19, -2)
+      PlayerStatFrameLeftDropDown.backdrop:SetPoint("BOTTOMRIGHT", -19, 7)
+    end
 
-    SkinDropDown(PlayerStatFrameRightDropDown, nil, nil, nil, true)
-    PlayerStatFrameRightDropDown.backdrop:SetPoint("TOPLEFT", 19, -2)
-    PlayerStatFrameRightDropDown.backdrop:SetPoint("BOTTOMRIGHT", -19, 7)
+    if PlayerStatFrameRightDropDown then
+      SkinDropDown(PlayerStatFrameRightDropDown, nil, nil, nil, true)
+      PlayerStatFrameRightDropDown.backdrop:SetPoint("TOPLEFT", 19, -2)
+      PlayerStatFrameRightDropDown.backdrop:SetPoint("BOTTOMRIGHT", -19, 7)
+    end
   end)
 
   HookAddonOrVariable("MyRolePlay", function()
@@ -1208,7 +1212,7 @@ pfUI:RegisterModule("thirdparty-vanilla", "vanilla", function()
     -- because it only attempts to add rarity borders which pfUI already does.
 
     -- make sure strata won't get touched again
-    PaperDollHook = function() return end
+    _G.PaperDollHook = function() return end
 
     -- restore original frame strata
     PaperDollFrame:SetFrameStrata("DIALOG")
@@ -1216,4 +1220,29 @@ pfUI:RegisterModule("thirdparty-vanilla", "vanilla", function()
     -- disable macro extenders setting
     MacroExtender_Options.Inventory = nil
   end)
+
+  -- UnitXP SP3 compatibility
+  -- https://github.com/allfoxwy/UnitXP_SP3
+  HookAddonOrVariable("UnitXP_SP3_Addon", function()
+    -- skin UnitXP SP3 window and elements
+    StripTextures(xpsp3Frame)
+    CreateBackdrop(xpsp3Frame)
+    CreateBackdropShadow(xpsp3Frame)
+    StripTextures(xpsp3tooltip)
+    CreateBackdrop(xpsp3tooltip)
+    CreateBackdropShadow(xpsp3tooltip)
+    SkinCheckbox(xpsp3_checkButton_modernNameplate)
+    SkinCheckbox(xpsp3_checkButton_notify_flashTaskbarIcon)
+    SkinCheckbox(xpsp3_checkButton_notify_playSystemDefaultSound)
+
+    local buttons = {
+      xpsp3_button_close,
+      xpsp3_button_cameraHeight_raise,
+      xpsp3_button_cameraHeight_lower,
+    }
+    for _, button in pairs(buttons) do
+      SkinButton(button)
+    end
+  end)
+
 end)

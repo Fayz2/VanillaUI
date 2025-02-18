@@ -64,6 +64,7 @@ pfUI:RegisterModule("panel", "vanilla:tbc", function()
         local h, m = GetGameTime()
         local noon = "AM"
         local time = ""
+        local secondsenabled = C.panel.seconds == "1"
         if C.global.twentyfour == "0" then
           if C.global.servertime == "1" then
             if h > 12 then
@@ -72,13 +73,21 @@ pfUI:RegisterModule("panel", "vanilla:tbc", function()
             end
             time = string.format("%.2d:%.2d %s", h, m, noon)
           else
-            time = date("%I:%M:%S %p")
+            if secondsenabled then
+              time = date("%I:%M:%S %p")
+            else
+              time = date("%I:%M %p")
+            end
           end
         else
           if C.global.servertime == "1" then
             time = string.format("%.2d:%.2d", h, m)
           else
-            time = date("%H:%M:%S")
+            if secondsenabled then
+              time = date("%H:%M:%S")
+            else
+              time = date("%H:%M")
+            end
           end
         end
         pfUI.panel:OutputPanel("time", time, widget.Tooltip, widget.Click)
@@ -277,13 +286,16 @@ pfUI:RegisterModule("panel", "vanilla:tbc", function()
         GameTooltip:AddDoubleLine(T["Login"] .. ":", CreateGoldString(pfUI.panel.initMoney))
         GameTooltip:AddDoubleLine(T["Now"] .. ":", CreateGoldString(GetMoney()))
         GameTooltip:AddDoubleLine("|cffffffff","")
+        local totalgold = 0
         for name, gold in pairs(pfUI_cache["gold"][GetRealmName()]) do
+          totalgold = totalgold + gold
           if name ~= UnitName("player") then
             GameTooltip:AddDoubleLine(name .. ":", CreateGoldString(gold))
           end
         end
         GameTooltip:AddDoubleLine("|cffffffff","")
         GameTooltip:AddDoubleLine(T["This Session"] .. ":", dmod .. CreateGoldString(math.abs(pfUI.panel.diffMoney)))
+        GameTooltip:AddDoubleLine(T["Total Gold"] .. ":", CreateGoldString(totalgold))
         GameTooltip:Show()
       end
       widget:SetScript("OnEvent", function()
@@ -517,6 +529,7 @@ pfUI:RegisterModule("panel", "vanilla:tbc", function()
       local widget = CreateFrame("Frame", "pfPanelWidgetAmmo", UIParent)
       widget:RegisterEvent("PLAYER_ENTERING_WORLD")
       widget:RegisterEvent("UNIT_INVENTORY_CHANGED")
+      widget:RegisterEvent("BAG_UPDATE")
       widget.Tooltip = function()
         if GetInventoryItemQuality("player", 0) then
           local ammo = GetInventoryItemCount("player", 0)
@@ -551,7 +564,8 @@ pfUI:RegisterModule("panel", "vanilla:tbc", function()
               if link then
                 local _, _, id = string.find(link, "item:(%d+):%d+:%d+:%d+")
                 if id == "6265" then
-                  count = count + 1
+                  local _, itemCount = GetContainerItemInfo(bag,slot)
+                  count = count + itemCount
                 end
               end
             end
@@ -785,8 +799,9 @@ pfUI:RegisterModule("panel", "vanilla:tbc", function()
 
   pfUI.panel.minimap = CreateFrame("Button", "pfPanelMinimap", UIParent)
   if pfUI.minimap then
-    pfUI.panel.minimap:SetPoint("TOP", pfUI.minimap, "BOTTOM", 0 , -default_border*3)
     pfUI.panel.minimap:SetWidth(pfUI.minimap:GetWidth())
+    pfUI.panel.minimap:SetPoint("TOPLEFT", pfUI.minimap, "BOTTOMLEFT", 0 , -default_border*3)
+    pfUI.panel.minimap:SetPoint("TOPRIGHT", pfUI.minimap, "BOTTOMRIGHT", 0 , default_border*3)
   else
     pfUI.panel.minimap:SetWidth(200)
     pfUI.panel.minimap:SetPoint("TOP", UIParent, "TOP", 0, -5)

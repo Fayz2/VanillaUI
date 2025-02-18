@@ -1104,7 +1104,16 @@ pfUI:RegisterModule("gui", "vanilla:tbc", function ()
         "topright:" .. T["Top Right"],
         "bottomleft:" .. T["Bottom Left"],
         "bottomright:" .. T["Bottom Right"],
-        "off:" .. T["Disabled"]
+      },
+      ["minimap_cords_visibility"] = {
+        "mouseover:" .. T["Mouseover"],
+        "on:" .. T["Enable"],
+        "off:" .. T["Disable"]
+      },
+      ["minimap_zone_visibility"] = {
+        "mouseover:" .. T["Mouseover"],
+        "on:" .. T["Enable"],
+        "off:" .. T["Disable"]
       },
       ["positions"] = {
         "TOPLEFT:" .. T["Top Left"],
@@ -1841,6 +1850,7 @@ pfUI:RegisterModule("gui", "vanilla:tbc", function ()
       CreateConfig(nil, T["Hide Chat When Bags Are Opened"], C.appearance.bags, "hidechat", "checkbox")
       CreateConfig(nil, T["Bagslots Per Row"], C.appearance.bags, "bagrowlength")
       CreateConfig(nil, T["Bankslots Per Row"], C.appearance.bags, "bankrowlength")
+      CreateConfig(nil, T["Enable Full-Text Search"], C.appearance.bags, "fulltext")
       CreateConfig(nil, T["Item Slot Size"], C.appearance.bags, "icon_size")
       CreateConfig(nil, T["Auto Sell Grey Items"], C.global, "autosell", "checkbox")
       CreateConfig(nil, T["Auto Repair Items"], C.global, "autorepair", "checkbox")
@@ -1857,11 +1867,14 @@ pfUI:RegisterModule("gui", "vanilla:tbc", function ()
     end)
 
     CreateGUIEntry(T["Minimap"], T["Minimap"], function()
-      CreateConfig(nil, T["Enable Zone Text On Minimap Mouseover"], C.appearance.minimap, "mouseoverzone", "checkbox")
+      CreateConfig(U["minimap"], T["Minimap Size (|cffffaaaaExperimental|r)"], C.appearance.minimap, "size")
+      CreateConfig(nil, T["Zone Text On Minimap"], C.appearance.minimap, "zonetext", "dropdown", pfUI.gui.dropdowns.minimap_zone_visibility)
+      CreateConfig(nil, T["Coordinates On Minimap"], C.appearance.minimap, "coordstext", "dropdown", pfUI.gui.dropdowns.minimap_cords_visibility)
       CreateConfig(nil, T["Coordinates Location"], C.appearance.minimap, "coordsloc", "dropdown", pfUI.gui.dropdowns.minimap_cords_position)
       CreateConfig(nil, T["Show PvP Icon"], C.unitframes.player, "showPVPMinimap", "checkbox")
       CreateConfig(nil, T["Show Inactive Tracking"], C.appearance.minimap, "tracking_pulse", "checkbox")
       CreateConfig(nil, T["Tracking Icon Size"], C.appearance.minimap, "tracking_size")
+      CreateConfig(nil, T["Hide Addon Buttons On Combat"], C.appearance.minimap, "addon_buttons", "checkbox")
     end)
 
     CreateGUIEntry(T["Minimap"], T["Addon Buttons"], function()
@@ -1983,7 +1996,9 @@ pfUI:RegisterModule("gui", "vanilla:tbc", function ()
       CreateConfig(nil, T["Cooldown Text Size"], C.bars, "cd_size")
 
       CreateConfig(nil, T["Auto Paging"], nil, nil, "header")
-      CreateConfig(U["bars"], T["Switch Pages On Meta Key Press"], C.bars, "pagemaster", "checkbox")
+      CreateConfig(U["bars"], T["Switch Pages On Alt Key Press"], C.bars, "pagemasteralt", "checkbox")
+      CreateConfig(U["bars"], T["Switch Pages On Shift Key Press"], C.bars, "pagemastershift", "checkbox")
+      CreateConfig(U["bars"], T["Switch Pages On Ctrl Key Press"], C.bars, "pagemasterctrl", "checkbox")
       CreateConfig(U["bars"], T["Switch Pages On Druid Stealth"], C.bars, "druidstealth", "checkbox")
       CreateConfig(nil, T["Range Based Hunter Paging"], C.bars, "hunterbar", "checkbox", nil, nil, nil, nil, "vanilla")
     end)
@@ -2062,6 +2077,7 @@ pfUI:RegisterModule("gui", "vanilla:tbc", function ()
       CreateConfig(nil, T["Only Count Bagspace On Regular Bags"], C.panel.bag, "ignorespecial", "checkbox")
       CreateConfig(nil, T["Enable Micro Bar"], C.panel.micro, "enable", "checkbox")
       CreateConfig(nil, T["Enable 24h Clock"], C.global, "twentyfour", "checkbox")
+      CreateConfig(nil, T["Enable Seconds"], C.panel, "seconds", "checkbox")
       CreateConfig(nil, T["Servertime"], C.global, "servertime", "checkbox")
       CreateConfig(U["panel"], T["Show FPS and Latency Colors"], C.panel, "fpscolors", "checkbox")
 
@@ -2086,6 +2102,7 @@ pfUI:RegisterModule("gui", "vanilla:tbc", function ()
       CreateConfig(nil, T["Colors"], nil, nil, "header")
       CreateConfig(U["xpbar"], T["Experience Color"], C.panel.xp, "xp_color", "color")
       CreateConfig(U["xpbar"], T["Rested Color"], C.panel.xp, "rest_color", "color")
+      CreateConfig(U["xpbar"], T["Bar Texture"], C.panel.xp, "texture", "dropdown", pfUI.gui.dropdowns.uf_bartexture)
     end)
 
     CreateGUIEntry(T["XP Bar"], T["Reputation Bar"], function()
@@ -2189,6 +2206,7 @@ pfUI:RegisterModule("gui", "vanilla:tbc", function ()
       CreateConfig(nil, T["Enable Custom Incoming Whispers Layout"], C.chat.global, "whispermod", "checkbox")
       CreateConfig(nil, T["Incoming Whispers Color"], C.chat.global, "whisper", "color")
       CreateConfig(nil, T["Enable Sticky Chat"], C.chat.global, "sticky", "checkbox")
+      CreateConfig(nil, T["Maximum Number Of Chat Lines"], C.chat.global, "maxlines")
       CreateConfig(nil, T["Enable Chat Fade"], C.chat.global, "fadeout", "checkbox")
       CreateConfig(nil, T["Seconds Before Chat Fade"], C.chat.global, "fadetime")
       CreateConfig(nil, T["Mousewheel Scroll Speed"], C.chat.global, "scrollspeed")
@@ -2201,6 +2219,7 @@ pfUI:RegisterModule("gui", "vanilla:tbc", function ()
     CreateGUIEntry(T["Nameplates"], nil, function()
       CreateConfig(U["nameplates"], T["Show On Hostile Units"], C.nameplates, "showhostile", "checkbox")
       CreateConfig(U["nameplates"], T["Show On Friendly Units"], C.nameplates, "showfriendly", "checkbox")
+      CreateConfig(U["nameplates"], T["Vertical Offset (|cffffaaaaExperimental|r)"], C.nameplates, "vertical_offset", nil, nil, nil, nil, nil, "vanilla")
       CreateConfig(U["nameplates"], T["Inactive Nameplate Alpha"], C.nameplates, "notargalpha", "dropdown", pfUI.gui.dropdowns.percent_small)
       CreateConfig(U["nameplates"], T["Draw Glow Around Target Nameplate"], C.nameplates, "targetglow", "checkbox")
       CreateConfig(U["nameplates"], T["Glow Color Around Target Nameplate"], C.nameplates, "glowcolor", "color")
@@ -2235,8 +2254,9 @@ pfUI:RegisterModule("gui", "vanilla:tbc", function ()
       CreateConfig(nil, T["Debuffs"], nil, nil, "header")
       CreateConfig(U["nameplates"], T["Enable Debuffs"], C.nameplates, "showdebuffs", "checkbox")
       CreateConfig(U["nameplates"], T["Debuff Position"], C.nameplates.debuffs, "position", "dropdown", pfUI.gui.dropdowns.debuffposition)
-      CreateConfig(U["nameplates"], T["Estimate Debuffs"], C.nameplates, "guessdebuffs", "checkbox")
+      CreateConfig(U["nameplates"], T["Debuff Icon Offset"], C.nameplates, "debuffoffset")
       CreateConfig(U["nameplates"], T["Debuff Icon Size"], C.nameplates, "debuffsize")
+      CreateConfig(U["nameplates"], T["Estimate Debuffs"], C.nameplates, "guessdebuffs", "checkbox")
       CreateConfig(U["nameplates"], T["Show Debuff Stacks"], C.nameplates.debuffs, "showstacks", "checkbox")
       CreateConfig(U["nameplates"], T["Filter Mode"], C.nameplates.debuffs, "filter", "dropdown", pfUI.gui.dropdowns.buffbarfilter)
       CreateConfig(U["nameplates"], T["Blacklist"], C.nameplates.debuffs, "blacklist", "list")
@@ -2249,7 +2269,6 @@ pfUI:RegisterModule("gui", "vanilla:tbc", function ()
       CreateConfig(U["nameplates"], T["Red Border On Enemy Units"], C.nameplates, "outenemy", "checkbox")
       CreateConfig(U["nameplates"], T["Border Around Target Unit"], C.nameplates, "targethighlight", "checkbox")
       CreateConfig(U["nameplates"], T["Border Color Around Target Unit"], C.nameplates, "highlightcolor", "color")
-      CreateConfig(U["nameplates"], T["Overwrite Border Color With Combat State"], C.nameplates, "outcombatstate", "checkbox")
 
       CreateConfig(nil, T["Healthbar"], nil, nil, "header")
       CreateConfig(U["nameplates"], T["Healthbar Vertical Offset"], C.nameplates.health, "offset")
@@ -2267,6 +2286,14 @@ pfUI:RegisterModule("gui", "vanilla:tbc", function ()
       CreateConfig(U["nameplates"], T["Hide Healthbar On Totems"], C.nameplates, "totems", "checkbox")
       CreateConfig(U["nameplates"], T["Always Show On Units With Missing HP"], C.nameplates, "fullhealth", "checkbox")
       CreateConfig(U["nameplates"], T["Always Show On Target Units"], C.nameplates, "target", "checkbox")
+      CreateConfig(U["nameplates"], T["Vertical Healthbar"], C.nameplates, "verticalhealth", "checkbox")
+
+      CreateConfig(nil, T["SuperWoW Settings"], nil, nil, "header")
+      CreateConfig(U["nameplates"], T["Overwrite Border Color With Combat State"], C.nameplates, "outcombatstate", "checkbox")
+      CreateConfig(U["nameplates"], T["Overwrite Health Color With Combat State"], C.nameplates, "barcombatstate", "checkbox")
+      CreateConfig(U["nameplates"], T["Unit Is Attacking You"], C.nameplates, "combatthreat", "color")
+      CreateConfig(U["nameplates"], T["Unit Is Attacking Others"], C.nameplates, "combatnothreat", "color")
+      CreateConfig(U["nameplates"], T["Unit Is Attacking No One"], C.nameplates, "combatstun", "color")
     end)
 
     CreateGUIEntry(T["Thirdparty"], T["Integrations"], function()
