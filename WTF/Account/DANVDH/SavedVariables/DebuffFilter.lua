@@ -140,7 +140,7 @@ DebuffFilter_Config = {
 			["Battle Shout"] = 1,
 		},
 	},
-	["Marelle - Kronos"] = {
+	["Fayz - Kronos V"] = {
 		["debuffs"] = "yes",
 		["all_fbuffs"] = "no",
 		["scale"] = 2,
